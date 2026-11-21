@@ -1,4 +1,6 @@
-# CP2077 Companion 0.8.2
+# CP2077 Companion 0.8.3
+
+**Patch 2.5 — player guide** — Finish The Heist and two gigs for Wakako, then wait for her message. Her new job offers five pieces of King’s gear. Look in the Cool tree for the new dual-wield perk. It works with Power pistols and revolvers. Finish The Heist and reach Street Cred 15 to unlock Richard Night’s tour. A separate job starts when you scan any of the 12 new Minor Arcana cards. This offline guide does not check your save for these requirements.
 
 [Polski](README.md) · [Changelog](CHANGELOG.md) · [Guide sources](GUIDE_SOURCES.md) · [Third-party references](THIRD_PARTY.md) · [Release verification](RELEASE_TESTS.md)
 
@@ -89,7 +91,7 @@ py -3 .\cp2077_companion.py --once --export-dir .\exports
 
 The program writes `state.json`, `assistant-context.json` and `assistant-context.md` together into a new subdirectory named with UTC time and a unique suffix. Previous exports are preserved. Choose an export destination outside the game's save directory. An incomplete or undecodable selected save does not publish a new snapshot.
 
-1. Stop the previous version and extract 0.8.2 to a new folder. Do not replace the new `data` directory with the old one.
+1. Stop the previous version and extract 0.8.3 to a new folder. Do not replace the new `data` directory with the old one.
 2. To keep checklist marks from 0.7.1, copy just `data/hidden_encounters_status.json` into the new `data` directory. Select the intended character's save and use the import button in **Hidden Encounters**. The old format did not distinguish characters: you decide which character gets those marks. Repeated imports preserve existing marks and do not modify the old file.
 3. You can copy the existing `cet_catalog.tsv` instead of downloading it again. Only a matching hash is used. When moving this version again, keep `data/hidden_encounters.sqlite3` after stopping the process.
 

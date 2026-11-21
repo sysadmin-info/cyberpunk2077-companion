@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CP2077 Companion</title>
-  <link rel="stylesheet" href="/styles.css?v=0.8.2">
+  <link rel="stylesheet" href="/styles.css?v=0.8.3">
 </head>
 <body>
   <noscript>@@HTML:m2fbcac855b@@</noscript>
@@ -30,6 +30,12 @@
     <span id="scan-warning" role="status"></span>
     <small>@@HTML:mb83341b977@@</small>
   </section>
+
+  <details class="panel"><summary>@@HTML:m8ff94d3c69@@</summary>
+<h3>@@HTML:m3cfc894057@@</h3><p>@@HTML:mb6ce75bbcf@@</p>
+<h3>@@HTML:mf9f7692685@@</h3><p>@@HTML:m25ba8b7c48@@</p>
+<h3>@@HTML:m7a4122c161@@</h3><p>@@HTML:m4cc082180d@@</p>
+<small>@@HTML:ma0dcb4af32@@</small></details>
 
   <nav class="tabs" aria-label="@@HTML:m85aca6d641@@">
     <button data-tab="overview" class="active">@@HTML:md87f47b47e@@</button>
@@ -421,7 +427,7 @@
   </main>
 
   <footer>@@HTML:m871fa9ffd4@@</footer>
-  <script src="/boot.js?v=0.8.2"></script>
-  <script id="companion-app" src="/app.js?v=0.8.2"></script>
+  <script src="/boot.js?v=0.8.3"></script>
+  <script id="companion-app" src="/app.js?v=0.8.3"></script>
 </body>
 </html>

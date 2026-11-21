@@ -2,9 +2,15 @@
 
 [Instrukcja po polsku](README.md) · [English manual](README.en.md) · [Weryfikacja / Verification](RELEASE_TESTS.md)
 
-Serie wydań / Release series: [0.8](#082--2026-11-21) · [0.7](#071--2026-10-08) · [0.6](#0611--2026-09-23) · [0.5](#055--2026-09-01) · [0.4](#04--2026-08-26) · [0.3](#03--2026-08-26) · [0.2](#02--2026-08-26) · [0.1](#011--2026-08-26)
+Serie wydań / Release series: [0.8](#083--2026-11-21) · [0.7](#071--2026-10-08) · [0.6](#0611--2026-09-23) · [0.5](#055--2026-09-01) · [0.4](#04--2026-08-26) · [0.3](#03--2026-08-26) · [0.2](#02--2026-08-26) · [0.1](#011--2026-08-26)
 
 Daty pominięto tam, gdzie notatki potwierdzają zmianę, ale nie dzień wydania. / Dates are omitted where the change is documented but the release day is unconfirmed.
+
+## 0.8.3 — 2026-11-21
+
+PL: Rozwijany poradnik patcha 2.5 nad zakładkami: zadanie Wakako, wyposażenie Kinga, walka dwoma pistoletami, wycieczka i tarot. Działa także bez wczytanego zapisu.
+
+EN: A collapsible offline guide above the tabs covers the Wakako job, King’s gear, dual wielding, the tour and tarot. Available without loading a save.
 
 ## 0.8.2 — 2026-11-21
 

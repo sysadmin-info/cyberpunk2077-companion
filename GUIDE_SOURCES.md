@@ -39,3 +39,9 @@ The bundled guides work offline. Entries include source links and verification d
 **PL:** [VULKK](https://vulkk.com/2023/10/19/firestarter-walkthrough-cyberpunk-2077-phantom-liberty/) opisuje wybór na stadionie; [GameSpot](https://www.gamespot.com/articles/cyberpunk-2077-phantom-liberty-endings-guide/1100-6517921/) opisuje późniejsze zadania i Cerberusa. Wcześniejsze spotkanie z Chimerą opisuje [GRYOnline](https://www.gry-online.pl/poradniki/cyberpunk-2077/wszyscy-ludzie-prezydentki/za1dabb). Źródła fabuły nie identyfikują slotu gracza. Wyszukiwarka porównuje dodatnie sygnały w lokalnych metadanych.
 
 **EN:** VULKK documents the stadium choice; GameSpot covers the subsequent routes and the Cerberus; GRYOnline covers the earlier encounter with the Chimera. The guide sources explain the story, not which save a particular player should load. The finder compares positive evidence from local metadata.
+
+## Patch 2.5 — CD PROJEKT RED
+
+https://www.cyberpunk.net/en/news/52120/check-out-whats-coming-to-night-city-in-the-edgerunners-2-update-for-cyberpunk-2077
+
+PL: Źródło redakcyjne; aplikacja nie pobiera tej strony. EN: Editorial source; the app does not fetch this page.
