@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CP2077 Companion</title>
+  <link rel="stylesheet" href="/styles.css?v=0.8.2">
+</head>
+<body>
+  <noscript>@@HTML:m2fbcac855b@@</noscript>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">@@HTML:mf1cd8abf08@@</div>
+      <h1>CYBERPUNK 2077 <span>COMPANION</span></h1>
+    </div>
+    <div class="top-actions">
+      <label class="language" for="language">@@HTML:md86a603bac@@ <select id="language" aria-label="@@HTML:mad3d9cb9ed@@"><option value="pl" selected>Polski</option><option value="en">English</option></select></label>
+      <button id="refresh">@@HTML:m855bc40c1e@@</button>
+      <a class="button" href="/api/assistant-context.json">assistant-context.json</a>
+      <a class="button" href="/api/assistant-context.md">assistant-context.md</a>
+    </div>
+  </header>
+
+  <section class="panel save-picker" aria-label="@@HTML:m95a6463005@@">
+    <label for="save-select">@@HTML:m1615650da6@@</label>
+    <select id="save-select"><option value="">@@HTML:m4eadd84543@@</option></select>
+    <button id="load-save">@@HTML:mb3f3a488ed@@</button>
+    <span id="save-current" role="status" aria-live="polite"></span>
+    <div id="save-error" role="alert"></div>
+    <span id="scan-warning" role="status"></span>
+    <small>@@HTML:mb83341b977@@</small>
+  </section>
+
+  <nav class="tabs" aria-label="@@HTML:m85aca6d641@@">
+    <button data-tab="overview" class="active">@@HTML:md87f47b47e@@</button>
+    <button data-tab="character">@@HTML:m8573162146@@</button>
+    <button data-tab="loadout">@@HTML:m9e7fd7ddae@@</button>
+    <button data-tab="quickhacks">@@HTML:m78597f7668@@</button>
+    <button data-tab="quest-choices">@@HTML:me78628bfd3@@</button>
+    <button data-tab="reaper">@@HTML:mbd8275bf6b@@</button>
+    <button data-tab="hidden-encounters">@@HTML:m2a7cce0371@@</button>
+    <button data-tab="world">@@HTML:ma8629bdad9@@</button>
+    <button data-tab="inventory">@@HTML:m387a4aa748@@</button>
+    <button data-tab="iconic">@@HTML:mf2d583351f@@</button>
+    <button data-tab="endings">@@HTML:m5cd6821eac@@</button>
+    <button data-tab="quests">@@HTML:m731faf6bec@@</button>
+    <button data-tab="history">@@HTML:m52295aa980@@</button>
+    <button data-tab="raw">Parser</button>
+  </nav>
+
+  <main>
+    <section id="loading" class="panel">@@HTML:m87e919b361@@</section>
+    <section id="error" class="panel error hidden"></section>
+
+    <section id="overview" class="tab-panel hidden">
+      <div id="hero" class="hero"></div>
+      <div id="metrics" class="metrics"></div>
+      <div class="two-col">
+        <article class="panel">
+          <h2>@@HTML:me6bb3ef61e@@</h2>
+          <div id="attributes" class="attributes"></div>
+        </article>
+        <article class="panel">
+          <h2>@@HTML:ma776013aa4@@</h2>
+          <div id="current" class="kv"></div>
+        </article>
+      </div>
+      <article class="panel screenshot-panel">
+        <div class="panel-heading">
+          <h2>@@HTML:m70f9ce06ed@@</h2>
+          <span class="muted">@@HTML:mc222598468@@</span>
+        </div>
+        <img id="screenshot" alt="@@HTML:m03e48d4d22@@">
+      </article>
+    </section>
+
+
+    <section id="character" class="tab-panel hidden">
+      <div id="development-metrics" class="metrics"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">PLAYERDEVELOPMENTDATA</div><h2>@@HTML:m7ba2c43e07@@</h2></div>
+          <span class="muted">@@HTML:m7bc9d9617a@@</span>
+        </div>
+        <div id="skill-grid" class="skill-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">@@HTML:mcdfad528eb@@</div><h2>@@HTML:m994cb614dd@@</h2></div>
+          <input id="perk-filter" type="search" placeholder="@@HTML:mf383d77167@@">
+        </div>
+        <div id="perk-trees" class="perk-trees"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading"><h2>@@HTML:mebd03e4828@@</h2><span class="muted">@@HTML:mcab8980ecb@@</span></div>
+        <div id="devpoints" class="table-wrap"></div>
+      </article>
+    </section>
+
+
+    <section id="loadout" class="tab-panel hidden">
+      <div id="loadout-metrics" class="metrics"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">EQUIPMENTSYSTEM // ENTITYID 1</div><h2>@@HTML:m699f6edfe0@@</h2></div>
+          <span class="muted">@@HTML:m6f343affda@@</span>
+        </div>
+        <div id="equipped-weapons" class="loadout-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">EQUIPMENTSYSTEM // CYBERWARE</div><h2>@@HTML:m23509aa63a@@</h2></div>
+          <span class="muted">@@HTML:mb3e1de1294@@</span>
+        </div>
+        <div class="table-wrap tall">
+          <table><thead><tr><th>@@HTML:mece2ac10d7@@</th><th>@@HTML:m189fc7f17d@@</th><th>TweakDBID</th><th>@@HTML:m873507a022@@</th></tr></thead><tbody id="equipped-cyberware"></tbody></table>
+        </div>
+      </article>
+      <div class="two-col">
+        <article class="panel">
+          <div class="panel-heading"><div><div class="eyebrow">STATPOOLSSYSTEM</div><h2>@@HTML:m3703cd2168@@</h2></div></div>
+          <div id="health-stats" class="kv"></div>
+          <div id="health-resolution-note" class="capacity-warning"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-heading"><div><div class="eyebrow">STATSSYSTEM</div><h2>@@HTML:md18259387d@@</h2></div></div>
+          <div id="humanity-stats" class="kv"></div>
+          <div class="capacity-warning">@@HTML:m554cff371a@@ <strong>@@HTML:m45ff611ef6@@</strong>@@HTML:m94ae0492f9@@</div>
+        </article>
+      </div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">@@HTML:m7f7b73915c@@</div><h2>@@HTML:ma7493f551b@@</h2></div>
+          <span class="muted">@@HTML:m1f2e91037f@@</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>@@HTML:m6c255cf0f4@@</th><th>@@HTML:m49df26a350@@</th><th>@@HTML:medcaf9aaa2@@</th><th>@@HTML:m581c5d6c00@@</th><th>@@HTML:m873507a022@@</th></tr></thead>
+            <tbody id="stats-system-rows"></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">STATPOOLSSYSTEM // ENTITYID=1</div><h2>@@HTML:m8341babbe4@@</h2></div>
+          <span class="muted">@@HTML:m71406fb881@@</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>@@HTML:m8d97b591fd@@</th><th>@@HTML:m49df26a350@@</th><th>@@HTML:ma95e85aed5@@</th><th>@@HTML:m4fc0e2bc80@@</th><th>@@HTML:mbf16b0c01f@@</th><th>@@HTML:ma7b93d2128@@</th><th>@@HTML:m4686c9229a@@</th></tr></thead>
+            <tbody id="stat-pool-rows"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section id="quickhacks" class="tab-panel hidden">
+      <div class="encounter-intro">
+        <div><div class="eyebrow">@@HTML:mb50eef7a20@@</div><h2>@@HTML:m78597f7668@@</h2><p>@@HTML:mb69f086b6f@@</p></div>
+        <div id="quickhack-metrics" class="encounter-metrics"></div>
+      </div>
+      <article class="panel">
+        <div class="panel-heading"><h2>@@HTML:m34a7e80629@@</h2><span class="muted">@@HTML:mbbc75e4377@@</span></div>
+        <div id="quickhack-deck" class="loadout-grid"></div>
+        <p id="quickhack-slot-note" class="capacity-warning"></p>
+      </article>
+      <article class="panel">
+        <div class="panel-heading"><h2>@@HTML:m3f2ecf49c0@@</h2></div>
+        <div class="discovery-filters">
+          <label>@@HTML:ma094537b64@@<input id="quickhack-search" type="search" placeholder="@@HTML:m73c3003b06@@"></label>
+          <label>@@HTML:m6877764a6a@@<select id="quickhack-kind"><option value="">@@HTML:m40b0a1b4ab@@</option><option value="program">@@HTML:m0ef24b34e3@@</option><option value="recipe">@@HTML:m73af4f22d9@@</option></select></label>
+          <label>@@HTML:m9cededc762@@<select id="quickhack-location"><option value="owned">@@HTML:m371b07046d@@</option><option value="player">@@HTML:ma7ce8c4d73@@</option><option value="stash">@@HTML:m16057e02d8@@</option><option value="other">@@HTML:m1c169fae69@@</option><option value="">@@HTML:m85a245a04e@@</option></select></label>
+          <label>@@HTML:m94a9e2369d@@<select id="quickhack-tier"><option value="">@@HTML:m2a6a215fc3@@</option><option value="1">I</option><option value="2">II</option><option value="3">III</option><option value="4">IV</option><option value="5">V</option><option value="unknown">@@HTML:m757cf43de0@@</option></select></label>
+        </div>
+        <p id="quickhack-count" class="muted" role="status"></p>
+      </article>
+      <div id="quickhack-list" class="discovery-grid"></div>
+      <article class="panel"><h2>@@HTML:m48057341c3@@</h2><ul id="quickhack-notes" class="readiness-notes"></ul><div id="quickhack-sources" class="guide-links"></div></article>
+    </section>
+
+    <section id="quest-choices" class="tab-panel hidden">
+      <div class="encounter-intro">
+        <div><div class="eyebrow">@@HTML:mdaf8ef328a@@</div><h2>@@HTML:me78628bfd3@@</h2><p>@@HTML:mc77d614e85@@</p></div>
+        <div id="choice-metrics" class="encounter-metrics"></div>
+      </div>
+      <article id="fork-finder" class="panel">
+        <div class="eyebrow">PHANTOM LIBERTY</div><h2>@@HTML:me7887b3e4d@@</h2>
+        <p>@@HTML:mb9679a8813@@</p><button id="fork-search" type="button">@@HTML:md6d3a05db2@@</button>
+        <p id="fork-status" class="muted" role="status" aria-live="polite"></p>
+        <div id="fork-results" class="hidden">
+          <label>@@HTML:m330a1f4264@@ <select id="fork-kind"><option value="all">@@HTML:m9604c09454@@</option><option value="manual">@@HTML:mfcd553d1ea@@</option><option value="auto">@@HTML:m7bd41d42af@@</option><option value="quick">@@HTML:m7a0f07e4d7@@</option><option value="other">@@HTML:m219edfa5f2@@</option></select></label>
+          <div class="decision-grid" id="fork-summary"></div><p>@@HTML:mb875a5637b@@</p>
+          <p class="muted">@@HTML:ma7285f8ac1@@</p>
+          <div class="discovery-filters"><label>@@HTML:m67a21dfdec@@<input id="fork-name" type="search" placeholder="ManualSave-…"></label>
+            <label>@@HTML:med4b0c1697@@<select id="fork-stage"><option value="">@@HTML:m9604c09454@@</option><option value="candidate">@@HTML:m0d9164204e@@</option><option value="known">@@HTML:m1be0f73cf5@@</option><option value="songbird">@@HTML:m027e48515d@@</option><option value="reed">@@HTML:mb7e662a3fc@@</option><option value="past">@@HTML:mf7d96408dc@@</option><option value="signal">@@HTML:mc9013b730d@@</option><option value="conflict">@@HTML:mff4eff009d@@</option></select></label></div>
+          <p id="fork-count" role="status"></p><div class="table-wrap"><table><thead><tr><th>@@HTML:md00306cb12@@</th><th>@@HTML:m6602367a2c@@</th><th>@@HTML:mfdb4212fe6@@</th><th>@@HTML:med4b0c1697@@</th><th>@@HTML:ma57fb28175@@</th></tr></thead><tbody id="fork-rows"></tbody></table></div>
+          <button id="fork-more" type="button" class="hidden">@@HTML:m2be3cdda16@@</button>
+        </div>
+      </article>
+      <article class="panel">
+        <div class="discovery-filters">
+          <label>@@HTML:mc41e90c827@@<input id="choice-search" type="search" placeholder="Blue Moon, Anna, Joshua…"></label>
+          <label>@@HTML:m64d800422b@@<select id="choice-game"><option value="">@@HTML:m3aaefe820c@@</option><option value="base">@@HTML:m6417e9afaa@@</option><option value="phantom_liberty">Phantom Liberty</option></select></label>
+          <label>@@HTML:m5594de39c4@@<select id="choice-tag"><option value="">@@HTML:m1d5a921283@@</option></select></label>
+          <label>@@HTML:m3a127e7f70@@<select id="choice-status"><option value="">@@HTML:m2a6a215fc3@@</option><option value="active">@@HTML:m6dabe69059@@</option><option value="signal">@@HTML:m0a9762f493@@</option><option value="done">@@HTML:m80993f9c2e@@</option><option value="unknown">@@HTML:m591dbd3831@@</option></select></label>
+        </div>
+        <p id="choice-count" class="muted" role="status"></p>
+        <p class="muted">@@HTML:m41ab23bbb0@@</p>
+      </article>
+      <div id="choice-list" class="discovery-grid"></div>
+      <article class="panel"><h2>@@HTML:m8605dee262@@</h2><ul id="choice-notes" class="readiness-notes"></ul></article>
+    </section>
+
+    <section id="reaper" class="tab-panel hidden">
+      <div id="reaper-hero"></div>
+      <div id="reaper-metrics" class="metrics"></div>
+      <div id="reaper-profiles" class="profile-grid"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">@@HTML:m9f11b2601b@@</div><h2>Don't Fear the Reaper</h2></div>
+          <span class="muted">@@HTML:m751246f94b@@</span>
+        </div>
+        <div id="reaper-groups" class="readiness-groups"></div>
+      </article>
+      <div class="two-col">
+        <article class="panel">
+          <div class="panel-heading"><h2>@@HTML:m890ccfbe17@@</h2><span class="muted">@@HTML:m201aa24da1@@</span></div>
+          <div id="reaper-next" class="next-actions"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-heading"><h2>@@HTML:m9f666ef3f0@@</h2><span class="muted">@@HTML:m15344bcbbd@@</span></div>
+          <ul id="reaper-notes" class="readiness-notes"></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="hidden-encounters" class="tab-panel hidden">
+      <div class="encounter-intro">
+        <div>
+          <div class="eyebrow">@@HTML:mf297615c4c@@</div>
+          <h2>@@HTML:m2a7cce0371@@</h2>
+          <p>@@HTML:m796aa94093@@</p>
+        </div>
+        <button id="legacy-import" class="hidden">@@HTML:m43db39587d@@</button>
+      <div id="hidden-encounter-metrics" class="encounter-metrics"></div>
+      </div>
+
+      <article class="panel encounter-filter-panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">@@HTML:m42e3253d37@@</div><h2>@@HTML:mf49d24acc9@@</h2></div>
+          <label class="shoot-first-toggle"><input id="enc-do-not-shoot" type="checkbox"> <strong>@@HTML:m06a0a34813@@</strong></label>
+        </div>
+        <div class="encounter-filters">
+          <input id="enc-search" type="search" placeholder="@@HTML:m5a6b7d58a8@@">
+          <select id="enc-district" aria-label="@@HTML:m5159ab4409@@"><option value="">@@HTML:mc3071f448b@@</option></select>
+          <select id="enc-type" aria-label="@@HTML:m612aeb8987@@"><option value="">@@HTML:m161837074f@@</option></select>
+          <select id="enc-activity" aria-label="@@HTML:ma2f9ea3a10@@"><option value="">@@HTML:m530c2eb0cf@@</option></select>
+          <select id="enc-status" aria-label="@@HTML:m49f3c7d096@@"><option value="">@@HTML:ma87fc47ce6@@</option><option value="unknown">@@HTML:m4abfbfa401@@</option><option value="discovered">@@HTML:md945753910@@</option><option value="completed">@@HTML:m1c57a2aad9@@</option></select>
+          <select id="enc-risk" aria-label="@@HTML:ma43075b5e8@@"><option value="">@@HTML:m94aa0f75bf@@</option><option value="high">@@HTML:m651137b132@@</option><option value="medium">@@HTML:m597356ae0d@@</option><option value="low">@@HTML:m0b9d67fd9c@@</option></select>
+          <select id="enc-time" aria-label="@@HTML:ma813f39bf0@@"><option value="">@@HTML:mc48c433073@@</option><option value="required">@@HTML:m456594400a@@</option><option value="none">@@HTML:m225b28fdbd@@</option></select>
+          <select id="enc-peaceful" aria-label="@@HTML:medf12d1de6@@"><option value="">@@HTML:m888d1f773e@@</option><option value="yes">@@HTML:m55f832446f@@</option><option value="no">@@HTML:m7e9bfd38dd@@</option></select>
+        </div>
+      </article>
+
+      <div id="hidden-encounter-count" class="encounter-count muted"></div>
+      <div id="hidden-encounter-list" class="encounter-list"></div>
+      <article class="panel encounter-data-note">
+        <strong>@@HTML:m0fc97afc2d@@</strong> @@HTML:ma7b7ea9f99@@
+      </article>
+    </section>
+
+    <section id="world" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">@@HTML:mbd94ab5531@@</div>
+            <h2>@@HTML:m4df2f1ad15@@</h2>
+          </div>
+          <span class="muted">@@HTML:mf0b8829f55@@</span>
+        </div>
+        <div id="decisions" class="decision-grid"></div>
+      </article>
+    </section>
+
+    <section id="inventory" class="tab-panel hidden">
+      <div id="inventory-metrics" class="metrics"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">@@HTML:m9cc62feacb@@</div>
+            <h2>@@HTML:me1333acad6@@</h2>
+          </div>
+          <span class="muted">@@HTML:m4353de7e4c@@</span>
+        </div>
+        <div id="inventory-known" class="item-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">@@HTML:mfc18844491@@</div>
+            <h2>Pride / Prejudice</h2>
+          </div>
+          <span class="muted">@@HTML:m876325edcb@@</span>
+        </div>
+        <div id="reward-probes" class="item-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">@@HTML:m1d196de9c7@@</div>
+            <h2>@@HTML:m48c385db6a@@</h2>
+          </div>
+          <input id="inventory-filter" type="search" placeholder="@@HTML:mcb77dddfae@@">
+        </div>
+        <div id="catalog-note" class="catalog-note"></div>
+        <div class="table-wrap tall">
+          <table>
+            <thead><tr><th>@@HTML:m9cededc762@@</th><th>@@HTML:ma094537b64@@</th><th>TweakDBID</th><th>@@HTML:mb4b5f6f100@@</th><th>@@HTML:m358ebc181c@@</th><th>@@HTML:m873507a022@@</th><th>@@HTML:m260f7a8cd4@@</th></tr></thead>
+            <tbody id="inventory-rows"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section id="iconic" class="tab-panel hidden">
+      <div class="iconic-intro">
+        <div><div class="eyebrow">@@HTML:mf46a48a70d@@</div><h2>@@HTML:mec3ba1f938@@</h2><p>@@HTML:mb8660b9acf@@</p></div>
+        <div id="iconic-metrics" class="metrics compact"></div>
+      </div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">@@HTML:m42e3253d37@@</div><h2>@@HTML:mb4d5962dea@@</h2></div>
+          <span class="muted">@@HTML:m59bf667e65@@</span>
+        </div>
+        <div class="iconic-filters">
+          <input id="iconic-search" type="search" placeholder="@@HTML:mc0130634f2@@">
+          <select id="iconic-status"><option value="">@@HTML:maa626e636c@@</option><option value="owned">@@HTML:m6efb32aee7@@</option><option value="missing">@@HTML:mac41804f70@@</option><option value="equipped">@@HTML:m89dad18833@@</option><option value="inventory">@@HTML:ma7ce8c4d73@@</option><option value="stash">@@HTML:m16057e02d8@@</option><option value="other">@@HTML:m0d884d58e1@@</option><option value="unknown">@@HTML:m4abfbfa401@@</option></select>
+          <select id="iconic-collection" aria-label="@@HTML:m78a248ccee@@"><option value="">@@HTML:mc2cfb31559@@</option><option value="special_reward">@@HTML:m96d5014cc1@@</option><option value="story_choice">@@HTML:mdb18ed18ab@@</option></select>
+          <select id="iconic-game"><option value="">@@HTML:m033d0a6dca@@</option><option value="base">@@HTML:m683f36eabc@@</option><option value="phantom_liberty">Phantom Liberty</option></select>
+          <select id="iconic-guide-filter" aria-label="@@HTML:m3f53b0eccb@@"><option value="">@@HTML:m262b748c30@@</option><option value="source_checked">@@HTML:mc41836bfea@@</option><option value="needs_verification">@@HTML:mf3e14b196e@@</option><option value="map">@@HTML:ma423a03707@@</option></select>
+          <select id="iconic-availability" aria-label="@@HTML:m9819bfd6fa@@"><option value="">@@HTML:m7fb4361862@@</option><option value="decision_dependent">@@HTML:m8e7508c45b@@</option><option value="account_or_promo">@@HTML:mae3bf77116@@</option><option value="unknown">@@HTML:m5b285a6de3@@</option></select>
+          <select id="iconic-method" aria-label="@@HTML:mde8526958d@@"><option value="">@@HTML:m396179ef5f@@</option><option value="loot">@@HTML:m36232afa15@@</option><option value="quest">@@HTML:mcd4c100268@@</option><option value="crafting">@@HTML:m93baeb92da@@</option><option value="exploration">@@HTML:mf93936034a@@</option><option value="purchase">@@HTML:m4ab605f50b@@</option><option value="account">@@HTML:mae3bf77116@@</option><option value="unknown">@@HTML:m18f531222f@@</option></select>
+        </div>
+      </article>
+      <div id="iconic-count" class="encounter-count muted"></div>
+      <p id="iconic-guide-summary" class="muted"></p>
+      <div class="iconic-pages"><button id="iconic-prev">@@HTML:m1eb3dc6d90@@</button><span id="iconic-page" aria-live="polite"></span><button id="iconic-next">@@HTML:mc860692f7a@@</button></div>
+      <div class="table-wrap iconic-table"><table><thead><tr><th>@@HTML:m9a41e45b18@@</th><th>@@HTML:m84f1c13a8f@@</th><th>@@HTML:m39332c7de6@@</th><th>@@HTML:ma42414e2b6@@</th><th>@@HTML:m7885488694@@</th></tr></thead><tbody id="iconic-rows"></tbody></table></div>
+      <div class="iconic-pages"><button id="iconic-prev-bottom">@@HTML:m1eb3dc6d90@@</button><span id="iconic-page-bottom" aria-live="polite"></span><button id="iconic-next-bottom">@@HTML:mc860692f7a@@</button></div>
+      <article class="panel iconic-note"><strong>@@HTML:m599e3fd41a@@</strong> @@HTML:ma559b732f2@@</article>
+    </section>
+
+    <section id="endings" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">@@HTML:me2f4a59247@@</div>
+            <h2>@@HTML:m9f90a16d0d@@</h2>
+          </div>
+          <span class="muted">@@HTML:m9f9c2b295b@@</span>
+        </div>
+        <div id="ending-cards" class="decision-grid"></div>
+      </article>
+    </section>
+
+    <section id="quests" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <h2>@@HTML:m8cd9a0890a@@</h2>
+          <input id="quest-filter" type="search" placeholder="@@HTML:mf42fc0ad6a@@">
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Status</th><th>ID</th><th>@@HTML:m9e6fa2aa76@@</th><th>@@HTML:m1a34d84480@@</th><th>@@HTML:mb44e2539ee@@</th></tr></thead>
+            <tbody id="quest-rows"></tbody>
+          </table>
+        </div>
+        <p class="muted">@@HTML:m5372300f3b@@</p>
+      </article>
+    </section>
+
+    <section id="history" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">@@HTML:ma06d9aae5a@@</div>
+            <h2>@@HTML:m52295aa980@@</h2>
+          </div>
+          <input id="history-filter" type="search" placeholder="@@HTML:m34e4605901@@">
+        </div>
+        <div id="history-stats" class="metrics compact"></div>
+        <div class="table-wrap tall">
+          <table>
+            <thead><tr><th>@@HTML:m1d78b1b610@@</th><th>@@HTML:mefc007a393@@</th><th>@@HTML:me5e429bcc9@@</th><th>h</th><th>@@HTML:mcbd7fe8484@@</th><th>SC</th><th>@@HTML:m355bcc577d@@</th><th>@@HTML:mf453f5a887@@</th></tr></thead>
+            <tbody id="history-rows"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section id="raw" class="tab-panel hidden">
+      <div class="two-col">
+        <article class="panel">
+          <h2>@@HTML:m17a3faa22c@@</h2>
+          <div id="parser" class="kv"></div>
+        </article>
+        <article class="panel">
+          <h2>@@HTML:md119b0e15d@@</h2>
+          <p>@@HTML:ma4fccc5b46@@</p>
+          <div class="export-actions">
+            <a class="button primary" href="/api/assistant-context.json">@@HTML:ma5a0dc537e@@</a>
+            <a class="button" href="/api/assistant-context.md">@@HTML:m2ca81b38b3@@</a>
+          </div>
+        </article>
+      </div>
+      <article class="panel">
+        <h2>@@HTML:m856a5f4475@@</h2>
+        <pre id="finished"></pre>
+      </article>
+    </section>
+  </main>
+
+  <footer>@@HTML:m871fa9ffd4@@</footer>
+  <script src="/boot.js?v=0.8.2"></script>
+  <script id="companion-app" src="/app.js?v=0.8.2"></script>
+</body>
+</html>

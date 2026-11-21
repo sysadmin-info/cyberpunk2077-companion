@@ -1,0 +1,1087 @@
+{
+  "schema": "cp2077-companion/quest-choice-catalog-v1",
+  "checked_on": "2026-11-21",
+  "records": [
+    {
+      "id": "firestarter",
+      "title": "Dzień próby (Firestarter) — Songbird czy Reed?",
+      "game": "phantom_liberty",
+      "quest_ids": [
+        "q304"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "rozgałęzienie fabuły",
+        "finały dodatku"
+      ],
+      "search_aliases": [
+        "Dzień próby",
+        "Firestarter",
+        "Songbird",
+        "So Mi",
+        "Reed",
+        "Chimera",
+        "Cerber",
+        "Cerberus",
+        "Cynosure"
+      ],
+      "hint": "Na stadionie zachowaj osobny ręczny zapis, zanim pomożesz Songbird przy matrycy. To dobry punkt powrotu, żeby zobaczyć drugą ścieżkę.",
+      "decision_point": "Laboratorium pod stadionem. Gdy Songbird podłącza się do matrycy neuronowej, V może pomóc jej uciec albo uruchomić lodołamacz Reeda.",
+      "branches": [
+        {
+          "label": "Pomóż Songbird uciec",
+          "action": "Stań po stronie So Mi i pomiń lodołamacz.",
+          "immediate": "Uciekasz ze stadionu z Songbird.",
+          "delayed": "W „Cierniach i gwiazdach” trafisz do kosmoportu NCX. Możesz tam wysłać So Mi na Księżyc albo oddać ją Reedowi. Późniejsze przekazanie jej Reedowi nie otwiera już Cynosure.",
+          "reward": "Jeśli na pomoście zabijesz Reeda, możesz zabrać jego pistolet Pariah. Sama pomoc w ucieczce nie daje tej broni.",
+          "condition": ""
+        },
+        {
+          "label": "Pomóż Reedowi schwytać Songbird",
+          "action": "Uruchom lodołamacz, gdy So Mi jest podłączona do matrycy.",
+          "immediate": "Plan schwytania So Mi na stadionie zawodzi. Dalej śledzisz transport Max-Tacu.",
+          "delayed": "„Przesyłka do Los Padres” prowadzi do „Ku otchłani”: w ośrodku Cynosure unikasz Cerberusa. Przy rdzeniu osobno decydujesz o losie So Mi.",
+          "reward": "W Cynosure można znaleźć schematy Erebus i Militech Canto Mk.6. Zabierz komponent Cerberusa: po zadaniu This Corrosion wystarczy na wykonanie jednego z tych dwóch przedmiotów.",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Chimera to maszyna, z którą wcześniej walczysz u boku Myers w „Wszyscy ludzie prezydentki”. Cerberus jest innym robotem; spotkanie z Chimerą nie mówi, którą ścieżkę wybierzesz.",
+        "Wyszukiwarka na tej karcie analizuje lokalne metadane. Zapis z aktywnym zadaniem jest kandydatem do sprawdzenia w grze, a nie potwierdzeniem dostępności dialogu."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "VULKK — Firestarter",
+          "url": "https://vulkk.com/2023/10/19/firestarter-walkthrough-cyberpunk-2077-phantom-liberty/"
+        },
+        {
+          "label": "GameSpot — Phantom Liberty Endings Guide",
+          "url": "https://www.gamespot.com/articles/cyberpunk-2077-phantom-liberty-endings-guide/1100-6517921/"
+        },
+        {
+          "label": "GameSpot — Phantom Liberty Iconic Weapons",
+          "url": "https://www.gamespot.com/gallery/cyberpunk-2077-phantom-liberty-iconic-weapons-guide/2900-4869/"
+        },
+        {
+          "label": "GRYOnline — Wszyscy ludzie prezydentki",
+          "url": "https://www.gry-online.pl/poradniki/cyberpunk-2077/wszyscy-ludzie-prezydentki/za1dabb"
+        }
+      ],
+      "checked_on": "2026-11-21"
+    },
+    {
+      "id": "anna-hamill",
+      "title": "Woman of La Mancha — Anna Hamill",
+      "game": "base",
+      "quest_ids": [
+        "sts_wat_kab_08"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "życie lub śmierć",
+        "nomad",
+        "późniejsze skutki"
+      ],
+      "hint": "Najpierw ostrzeż Annę. Jako nomadka możesz zaproponować jej coś więcej niż samo porzucenie śledztwa.",
+      "decision_point": "Rozmowa w pokoju motelu; odpowiedzi są ograniczone czasem.",
+      "branches": [
+        {
+          "label": "Wyjazd z miasta",
+          "action": "Ostrzeż ją, powiedz, że chcesz pomóc; następnie wybierz sens „to nieważne” i opcję nomada dotyczącą opuszczenia miasta.",
+          "immediate": "Anna porzuca śledztwo i wyjeżdża.",
+          "delayed": "Dołącza do Aldecaldos; można ją później spotkać w obozie.",
+          "reward": "",
+          "condition": "Ścieżka życia Nomad."
+        },
+        {
+          "label": "Pozostawienie w Night City",
+          "action": "Nakłoń ją do odpuszczenia, ale bez wyjazdu.",
+          "immediate": "Kontrakt zostaje zamknięty.",
+          "delayed": "Anna mści się na skorumpowanych policjantach. Pojawiają się ciało i drzazga w Kabuki, później radio informuje o jej śmierci.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Zabicie",
+          "action": "Zabij Annę.",
+          "immediate": "Kontrakt kończy się jej śmiercią.",
+          "delayed": "",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Samo pokojowe zakończenie rozmowy nie gwarantuje dobrego dalszego losu."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Woman of La Mancha",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Woman_of_La_Mancha"
+        },
+        {
+          "label": "Cyberpunk Wiki — Anna Hamill",
+          "url": "https://cyberpunk.fandom.com/wiki/Anna_Hamill"
+        }
+      ]
+    },
+    {
+      "id": "aaron-mccarlson",
+      "title": "Scrolls before Swine — nagranie dla Aarona",
+      "game": "base",
+      "quest_ids": [
+        "sts_wat_nid_07"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "dowody",
+        "życie lub śmierć",
+        "późniejsze skutki"
+      ],
+      "hint": "Obejrzyj plik na komputerze przed pobraniem. Treść nagrania zmienia rozmowę z klientem.",
+      "decision_point": "Najpierw zakładka plików w magazynie; później mieszkanie Aarona.",
+      "branches": [
+        {
+          "label": "Oddanie albo szantaż",
+          "action": "Oddaj plik; po obejrzeniu można też zażądać większej zapłaty.",
+          "immediate": "Aaron zachowuje wolność. Regina może korzystać z jego kontaktów w NCPD.",
+          "delayed": "",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Obezwładnienie",
+          "action": "Skonfrontuj go i zakończ walkę bez zabijania.",
+          "immediate": "Regina uzyskuje nacisk na Aarona.",
+          "delayed": "Zapowiada wykorzystanie go jako kontaktu wewnątrz NCPD.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Zabicie",
+          "action": "Zabij Aarona podczas konfrontacji.",
+          "immediate": "Regina krytykuje utratę wpływowego kontaktu.",
+          "delayed": "",
+          "reward": "Nie ma wypłaty za kontrakt.",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Po pobraniu plik znika z komputera. Późniejsza rola Aarona jest deklaracją Reginy, nie nowym gwarantowanym zleceniem."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Scrolls before Swine",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Scrolls_before_Swine"
+        }
+      ]
+    },
+    {
+      "id": "joshua",
+      "title": "Sinnerman — Joshua Stephenson",
+      "game": "base",
+      "quest_ids": [
+        "sq023_hit_order"
+      ],
+      "chain_ids": [
+        "sq023"
+      ],
+      "tags": [
+        "życie lub śmierć",
+        "dalsze zadania"
+      ],
+      "hint": "Nie realizuj od razu egzekucji. Pozwól, by po zatrzymaniu samochodu doszło do rozmowy z Joshuą.",
+      "decision_point": "Po pościgu, zanim zaatakujesz cel zlecenia lub odmówisz wspólnej jazdy.",
+      "branches": [
+        {
+          "label": "Poznanie Joshuy",
+          "action": "Wysłuchaj go i zgódź się pojechać z nim.",
+          "immediate": "Odkrywasz jego przemianę religijną oraz rolę producentki.",
+          "delayed": "Otwierasz There Is a Light That Never Goes Out i They Won’t Go When I Go.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Wykonanie zlecenia",
+          "action": "Zabij albo zneutralizuj Joshuę.",
+          "immediate": "Wakako rozlicza pierwotny kontrakt.",
+          "delayed": "Dwa dalsze zadania Joshuy zostają zablokowane.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Odmowa jazdy",
+          "action": "Po rozmowie odmów udziału.",
+          "immediate": "Kończysz swój udział w historii.",
+          "delayed": "Nie poznajesz dalszej części tego wątku.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Śmierć Billa w tej scenie jest skryptowana; ten wybór nie daje potwierdzonej ścieżki uratowania go."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Sinnerman",
+          "url": "https://cyberpunk.fandom.com/wiki/Sinnerman"
+        },
+        {
+          "label": "Cyberpunk Wiki — Bill Jablonsky",
+          "url": "https://cyberpunk.fandom.com/wiki/Bill_Jablonsky"
+        }
+      ]
+    },
+    {
+      "id": "blue-moon",
+      "title": "Every Breath You Take — stalkerka Blue Moon",
+      "game": "base",
+      "quest_ids": [
+        "mq028_stalker"
+      ],
+      "chain_ids": [
+        "mq028"
+      ],
+      "tags": [
+        "dowody",
+        "życie lub śmierć",
+        "relacje"
+      ],
+      "hint": "Obserwuj zachowanie ludzi i zbierz dowód, zanim zaatakujesz. Daj Blue Moon trochę przestrzeni.",
+      "decision_point": "Obserwacja na Kabuki Roundabout i konfrontacja z podejrzaną.",
+      "branches": [
+        {
+          "label": "Obezwładnienie stalkerki",
+          "action": "Zidentyfikuj Griseldę Martinez, znaną jako Green Cloud, i obezwładnij ją.",
+          "immediate": "Blue Moon przeżywa; można zaproponować przekazanie stalkerki policji.",
+          "delayed": "Blue Moon wysyła podziękowanie i zapłatę.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Zabicie stalkerki",
+          "action": "Zidentyfikuj tę samą sprawczynię i zabij ją.",
+          "immediate": "Blue Moon przeżywa.",
+          "delayed": "Także otrzymujesz podziękowanie i zapłatę.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Błędna identyfikacja lub utrata kontaktu",
+          "action": "Zaatakuj niewłaściwą osobę, odejdź za daleko albo śledź Blue Moon zbyt blisko.",
+          "immediate": "Zadanie może zakończyć się porażką; brak interwencji grozi śmiercią Blue Moon.",
+          "delayed": "",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Źródło nie opisuje odmiennych dalszych konsekwencji zabicia i obezwładnienia sprawczyni. Zadanie wymaga pokojowego rozwiązania konfliktu Kerry’ego z Us Cracks i ukończenia Off the Leash."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Every Breath You Take",
+          "url": "https://cyberpunk.fandom.com/wiki/Every_Breath_You_Take"
+        }
+      ]
+    },
+    {
+      "id": "barry",
+      "title": "Happy Together — Barry i Andrew",
+      "game": "base",
+      "quest_ids": [],
+      "chain_ids": [],
+      "tags": [
+        "dowody",
+        "życie lub śmierć",
+        "późniejsze skutki"
+      ],
+      "hint": "Wysłuchaj całej historii Barry’ego. Dodatkowy cel jest tu ważniejszy niż szybki powrót do policjantów.",
+      "decision_point": "Po rozmowie z Barrym, przed zdaniem relacji Petrovej i Mendezowi.",
+      "branches": [
+        {
+          "label": "Sprawdzenie historii",
+          "action": "Wypytaj Barry’ego o Andrew, odwiedź jego niszę w kolumbarium i powiedz policjantom o wizycie przy grobie.",
+          "immediate": "Policjanci rozumieją sytuację Barry’ego.",
+          "delayed": "Barry przeżywa.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Skrócenie rozmowy",
+          "action": "Pomiń sprawdzenie niszy albo przekaż policjantom tylko powierzchowną relację.",
+          "immediate": "Nie uzyskujesz rozwiązania, które ratuje Barry’ego.",
+          "delayed": "Barry odbiera sobie życie.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Nie przypisano niezweryfikowanego identyfikatora zadania; status z save’a pozostaje nieustalony."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "PowerPyx — walkthrough",
+          "url": "https://www.powerpyx.com/cyberpunk-2077-happy-together-walkthrough/"
+        }
+      ]
+    },
+    {
+      "id": "pisces",
+      "title": "Pisces — Maiko, Judy i Clouds",
+      "game": "base",
+      "quest_ids": [
+        "sq026_04_hiromi"
+      ],
+      "chain_ids": [
+        "sq026"
+      ],
+      "tags": [
+        "relacje",
+        "dalsze zadania",
+        "późniejsze skutki"
+      ],
+      "hint": "Oddziel decyzję o planie Maiko od decyzji o przyjęciu jej zapłaty. To dwa różne wybory.",
+      "decision_point": "Negocjacje w penthousie Hiromiego, a potem rozmowa o pieniądzach.",
+      "branches": [
+        {
+          "label": "Plan Maiko, bez pieniędzy",
+          "action": "Zaakceptuj przejęcie zarządzania przez Maiko, lecz odmów zapłaty.",
+          "immediate": "Maiko zarządza Clouds.",
+          "delayed": "Pyramid Song pozostaje dostępne. Judy później mówi, że warunki w klubie się nie poprawiły.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Plan Maiko i pieniądze",
+          "action": "Przyjmij plan i pieniądze Maiko.",
+          "immediate": "Judy odbiera to jako zdradę.",
+          "delayed": "Pyramid Song oraz romans z Judy zostają zablokowane.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Odrzucenie planu",
+          "action": "Odrzuć propozycję i rozpraw się z bossami.",
+          "immediate": "Clouds uzyskuje pozorną niezależność; oszczędzenie Maiko łagodzi reakcję Judy.",
+          "delayed": "Tyger Claws później biorą odwet: Tom ginie. Pyramid Song nadal może się rozpocząć.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Nie ma tu rozwiązania dającego trwałe, szczęśliwe wyzwolenie Clouds. Opis późniejszego odwetu pochodzi z wątku Judy."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Pisces",
+          "url": "https://cyberpunk.fandom.com/wiki/Pisces"
+        },
+        {
+          "label": "Cyberpunk Wiki — Judy Álvarez",
+          "url": "https://cyberpunk.fandom.com/wiki/Judy_%C3%81lvarez"
+        },
+        {
+          "label": "Cyberpunk Wiki — Pyramid Song",
+          "url": "https://cyberpunk.fandom.com/wiki/Pyramid_Song"
+        }
+      ]
+    },
+    {
+      "id": "randy",
+      "title": "The Hunt — śledztwo Rivera",
+      "game": "base",
+      "quest_ids": [
+        "sq021_sick_dreams"
+      ],
+      "chain_ids": [
+        "sq021"
+      ],
+      "tags": [
+        "dowody",
+        "życie lub śmierć",
+        "dalsze zadania"
+      ],
+      "hint": "Przeszukaj pokój Randy’ego i analizuj braindance do końca. Nie wybieraj farmy na chybił trafił.",
+      "decision_point": "Analiza wskazówek przed wyborem farmy; następnie akcja ratunkowa.",
+      "branches": [
+        {
+          "label": "Właściwa farma",
+          "action": "Zbierz wskazówki i wybierz Edgewood. Rozbrój zagrożenia oraz uwolnij poszkodowanych.",
+          "immediate": "Możesz uratować Randy’ego.",
+          "delayed": "Dalszy wątek Following the River pozostaje otwarty.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Zła farma",
+          "action": "Wybierz Poppy przy niepełnym śledztwie.",
+          "immediate": "Nie odnajdujesz Randy’ego na czas.",
+          "delayed": "Dalsze zadanie Rivera zostaje zablokowane.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Porzucenie ratunku",
+          "action": "Opuść obszar podczas akcji.",
+          "immediate": "River zostaje sam z zabezpieczeniami farmy.",
+          "delayed": "River i Randy mogą zginąć.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — The Hunt",
+          "url": "https://cyberpunk.fandom.com/wiki/The_Hunt"
+        },
+        {
+          "label": "PowerPyx — walkthrough",
+          "url": "https://www.powerpyx.com/cyberpunk-2077-the-hunt-walkthrough/"
+        }
+      ]
+    },
+    {
+      "id": "panam-saul",
+      "title": "With a Little Help from My Friends — Panam i Saul",
+      "game": "base",
+      "quest_ids": [
+        "sq027_01_baslisk_convoy"
+      ],
+      "chain_ids": [
+        "sq027"
+      ],
+      "tags": [
+        "relacje",
+        "dalsze zadania",
+        "pojazd"
+      ],
+      "hint": "Zgłoszenie planu Saulowi ma znacznie większe skutki niż jedna kłótnia z Panam.",
+      "decision_point": "Po przedstawieniu planu, przed poinformowaniem Saula.",
+      "branches": [
+        {
+          "label": "Pomoc Panam",
+          "action": "Weź udział w planie i nie zdradzaj go Saulowi.",
+          "immediate": "Współpracujesz z Aldecaldos.",
+          "delayed": "Otwierasz Queen of the Highway i dalszy wątek klanu.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Donos Saulowi",
+          "action": "Odmów udziału i poinformuj Saula o planie Panam.",
+          "immediate": "Panam zrywa współpracę.",
+          "delayed": "Blokujesz jej dalszy wątek oraz drogę do finału z Aldecaldos.",
+          "reward": "Mizutani Shion „Coyote”.",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Kobieca V może rozwijać przyjaźń z Panam; romans ma dodatkowe wymagania dotyczące postaci. Nagroda za donos nie rekompensuje fabularnie utraty łańcucha zadań."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — With a Little Help from My Friends",
+          "url": "https://cyberpunk.fandom.com/wiki/With_a_Little_Help_from_My_Friends"
+        },
+        {
+          "label": "Gamer Guides — wybory Panam",
+          "url": "https://www.gamerguides.com/cyberpunk-2077/guide/dialogue-choices/side-jobs/with-a-little-help-from-my-friends"
+        }
+      ]
+    },
+    {
+      "id": "woodman",
+      "title": "Automatic Love — rozmowa z Woodmanem",
+      "game": "base",
+      "quest_ids": [
+        "q105_dollhouse"
+      ],
+      "chain_ids": [
+        "q105"
+      ],
+      "tags": [
+        "netrunner",
+        "relacje",
+        "dalsze sceny"
+      ],
+      "hint": "Przed rozmową obejrzyj kabinę Evelyn i zabezpieczenia. Wiedza techniczna daje dodatkową drogę porozumienia.",
+      "decision_point": "Gabinet Woodmana; przed rozpoczęciem walki.",
+      "branches": [
+        {
+          "label": "Porozumienie",
+          "action": "Zaproponuj pomoc z problemem netrunnera, a informację o Evelyn uzyskaj przed przekazaniem rozwiązania.",
+          "immediate": "Uzyskujesz trop bez zabijania Woodmana.",
+          "delayed": "W Ex-Factor może dojść do późniejszej konfrontacji z nim u boku Judy.",
+          "reward": "",
+          "condition": "Dostępna opcja Inteligencji; próg zależy od wersji i poziomu."
+        },
+        {
+          "label": "Walka",
+          "action": "Doprowadź do walki i zabij Woodmana.",
+          "immediate": "Trop o Evelyn trzeba zdobyć z jego komputera.",
+          "delayed": "W Ex-Factor nie rozegra się późniejsze spotkanie z żywym Woodmanem.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Cocktail Stick jest osobnym łupem w garderobie; pokojowa rozmowa nie wymaga rezygnacji z katany."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Automatic Love",
+          "url": "https://cyberpunk.fandom.com/wiki/Automatic_Love"
+        },
+        {
+          "label": "Cyberpunk Wiki — Ex-Factor",
+          "url": "https://cyberpunk.fandom.com/wiki/Ex-Factor"
+        }
+      ]
+    },
+    {
+      "id": "takemura",
+      "title": "Search and Destroy — Takemura",
+      "game": "base",
+      "quest_ids": [
+        "q112_04_hideout"
+      ],
+      "chain_ids": [
+        "q112"
+      ],
+      "tags": [
+        "życie lub śmierć",
+        "zakończenia"
+      ],
+      "hint": "Cel „ucieknij” nie opisuje wszystkich możliwości. Rozejrzyj się, zanim opuścisz budynek.",
+      "decision_point": "Po rozdzieleniu z Takemurą podczas ataku na kryjówkę.",
+      "branches": [
+        {
+          "label": "Powrót po Takemurę",
+          "action": "Znajdź przejście na wyższe piętro, wróć do niego i wspólnie wyjdźcie.",
+          "immediate": "Takemura przeżywa.",
+          "delayed": "Może pojawić się w dalszej części ścieżki Arasaki; jego uratowanie jest warunkiem osiągnięcia The Devil.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Natychmiastowa ucieczka",
+          "action": "Wyjdź, nie wracając po niego.",
+          "immediate": "Takemura ginie.",
+          "delayed": "Ścieżka Arasaki pozostaje możliwa, ale bez niego i bez spełnienia tego warunku osiągnięcia.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Search and Destroy",
+          "url": "https://cyberpunk.fandom.com/wiki/Search_and_Destroy"
+        },
+        {
+          "label": "PowerPyx — The Devil",
+          "url": "https://www.powerpyx.com/cyberpunk-2077-trophy-guide-roadmap/"
+        }
+      ]
+    },
+    {
+      "id": "johnny-oilfield",
+      "title": "Chippin’ In — rozmowa na polach naftowych",
+      "game": "base",
+      "quest_ids": [
+        "sq031_rogue"
+      ],
+      "chain_ids": [
+        "sq031"
+      ],
+      "tags": [
+        "relacje",
+        "zakończenia",
+        "iconic"
+      ],
+      "hint": "W tej rozmowie liczą się konkretne odpowiedzi i szansa na zmianę, nie samo przytakiwanie Johnny’emu.",
+      "decision_point": "Przy symbolicznym grobie Johnny’ego po akcji z Rogue.",
+      "branches": [
+        {
+          "label": "Warunek sekretnej drogi",
+          "action": "Wybierz kolejno sens: „to też spieprzyłeś”, „czego ode mnie chcesz?”, „OK, ale to twoja ostatnia druga szansa”.",
+          "immediate": "Ustawiasz kluczowy warunek dialogowy.",
+          "delayed": "Sekretna propozycja finału może się pojawić po odczekaniu na dachu. Udział w Blistering Love otwiera też drogę Rogue.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Pozostałe odpowiedzi",
+          "action": "Rozegraj rozmowę inaczej.",
+          "immediate": "Możesz zachować część relacji i inne ścieżki.",
+          "delayed": "Sam procent relacji ani gotowość buildu nie zastąpią wymaganych odpowiedzi.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Decyzja o oszczędzeniu lub zabiciu Graysona dotyczy dostępu do Porsche, a nie trzech odpowiedzi na polach naftowych. Malorian Arms 3516 zabiera się w tym łańcuchu osobno."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Chippin' In (quest)",
+          "url": "https://cyberpunk.fandom.com/wiki/Chippin%27_In_%28quest%29"
+        },
+        {
+          "label": "Cyberpunk Wiki — (Don't Fear) The Reaper",
+          "url": "https://cyberpunk.fandom.com/wiki/%28Don%27t_Fear%29_The_Reaper"
+        }
+      ]
+    },
+    {
+      "id": "nash",
+      "title": "Ghost Town — propozycja Panam",
+      "game": "base",
+      "quest_ids": [],
+      "chain_ids": [
+        "q103"
+      ],
+      "tags": [
+        "relacje",
+        "iconic"
+      ],
+      "hint": "Po odzyskaniu samochodu Panam zaproponuje dodatkową akcję. Warto wysłuchać jej zamiast od razu zamykać kontrakt.",
+      "decision_point": "Propozycja rozprawienia się z Nashem po odzyskaniu auta.",
+      "branches": [
+        {
+          "label": "Pomoc przeciw Nashowi",
+          "action": "Zgódź się, wygraj walkę i przeszukaj ciało Nasha.",
+          "immediate": "Realizujesz osobisty cel Panam.",
+          "delayed": "",
+          "reward": "Widow Maker.",
+          "condition": ""
+        },
+        {
+          "label": "Odmowa dodatkowej akcji",
+          "action": "Odmów wyprawy.",
+          "immediate": "Panam jest niezadowolona, ale główny wątek może trwać dalej.",
+          "delayed": "Pomijasz okazję do zebrania Widow Maker w tej scenie.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Sygnał q103 odnosi się do łańcucha, a nie pewnego ukończenia tej części."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "PowerPyx — walkthrough",
+          "url": "https://www.powerpyx.com/cyberpunk-2077-ghost-town-walkthrough/"
+        }
+      ]
+    },
+    {
+      "id": "big-pete",
+      "title": "Big Pete’s Got Big Problems — rozmowa w piwnicy",
+      "game": "base",
+      "quest_ids": [
+        "sts_bls_ina_02"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "życie lub śmierć",
+        "kolejność",
+        "dalsze sceny"
+      ],
+      "hint": "Zostaw cel przy życiu do rozmowy. Wcześniejsza pomoc Tiny Mike’owi dodaje osobisty kontekst.",
+      "decision_point": "Piwnica warsztatu; zanim oddasz strzał do Pete’a.",
+      "branches": [
+        {
+          "label": "Oszczędzenie",
+          "action": "Pozwól mu uciec; łapówkę możesz przyjąć lub odrzucić.",
+          "immediate": "Dakota uznaje problem za rozwiązany.",
+          "delayed": "Po wcześniejszym Concrete Cage Trap Pete rozpoznaje pomoc dla brata; później można wspomnieć o nim Tiny Mike’owi w Afterlife.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Zabicie",
+          "action": "Zabij Pete’a.",
+          "immediate": "Dakota zamyka kontrakt jako wykonany.",
+          "delayed": "",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Big Pete's Got Big Problems",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Big_Pete%27s_Got_Big_Problems"
+        }
+      ]
+    },
+    {
+      "id": "olive-branch",
+      "title": "Olive Branch — sprawdź bagażnik",
+      "game": "base",
+      "quest_ids": [
+        "sts_wbr_jpn_01"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "dowody",
+        "życie lub śmierć",
+        "kolejność",
+        "późniejsze skutki"
+      ],
+      "hint": "Nie traktuj dostawy jak zwykłego przejazdu. Porozmawiaj z pasażerem bagażnika przed oddaniem auta.",
+      "decision_point": "Przed dostarczeniem samochodu do restauracji Tyger Claws.",
+      "branches": [
+        {
+          "label": "Dostarczenie",
+          "action": "Zawieź samochód z Alexem do odbiorców.",
+          "immediate": "Realizujesz plan Siergieja.",
+          "delayed": "Ciało Alexa można potem znaleźć przy odpływie w Charter Hill.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Uwolnienie",
+          "action": "Wypuść Alexa Pushkina.",
+          "immediate": "Odwracasz plan klienta.",
+          "delayed": "Ciało Siergieja można potem odnaleźć w Vista del Rey, za Dicky Twister.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Rozmowa z pracownikiem hotelu podczas Guinea Pigs daje dodatkową wiedzę o Alexie i opcję dialogową. To powód, by rozważyć kolejność tych zleceń."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Olive Branch",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Olive_Branch"
+        }
+      ]
+    },
+    {
+      "id": "stolen-medicine",
+      "title": "Backs Against the Wall — skradzione lekarstwa",
+      "game": "base",
+      "quest_ids": [
+        "sts_wat_kab_03"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "życie lub śmierć",
+        "dalsze sceny"
+      ],
+      "hint": "Po wejściu do pokoju zatrzymaj się i posłuchaj człowieka z bronią. Cel odzyskania leków nie wyjaśnia całej historii.",
+      "decision_point": "Pokój z lekarstwami; poruszanie się może uruchomić walkę.",
+      "branches": [
+        {
+          "label": "Rozmowa",
+          "action": "Pozostań w miejscu i spokojnie przejdź przez rozmowę o lekarstwach oraz politykach.",
+          "immediate": "Możesz odebrać leki bez walki.",
+          "delayed": "Przy wyjściu słychać strzał: rozmówca odbiera sobie życie.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Walka",
+          "action": "Doprowadź do walki i zabij rozmówcę.",
+          "immediate": "Odzyskujesz leki, lecz pomijasz osobisty kontekst sceny.",
+          "delayed": "",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Pokojowe odebranie przedmiotu nie jest tu ścieżką uratowania rozmówcy."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Backs Against the Wall",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Backs_Against_the_Wall"
+        },
+        {
+          "label": "PowerPyx — walkthrough",
+          "url": "https://www.powerpyx.com/cyberpunk-2077-backs-against-the-wall-walkthrough/"
+        }
+      ]
+    },
+    {
+      "id": "max-jones",
+      "title": "Freedom of the Press — Max Jones",
+      "game": "base",
+      "quest_ids": [
+        "sts_wat_nid_12"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "życie lub śmierć",
+        "relacje"
+      ],
+      "hint": "Max uważa, że przyszła po niego korporacja. Najpierw wyjaśnij, kim jesteś; nie zaczynaj od rozkazu.",
+      "decision_point": "Pierwsza rozmowa na najwyższym piętrze studia.",
+      "branches": [
+        {
+          "label": "Wysłuchanie i wyprowadzenie",
+          "action": "Zaprzecz, że pracujesz dla korporacji; porozmawiaj o Reginie i przekonaj go do spotkania.",
+          "immediate": "Max odkłada broń; odprowadź go do samochodu.",
+          "delayed": "",
+          "reward": "Regina wypłaca premię za uratowanie go.",
+          "condition": ""
+        },
+        {
+          "label": "Rozkaz odłożenia broni",
+          "action": "Zacznij od żądania odłożenia pistoletu.",
+          "immediate": "Max odbiera to jako potwierdzenie zagrożenia i zabija się.",
+          "delayed": "",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Freedom of the Press",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Freedom_of_the_Press"
+        },
+        {
+          "label": "Gamepur — Max Jones",
+          "url": "https://www.gamepur.com/guides/freedom-of-the-press-gig-cyberpunk-2077-how-to-get-into-the-news-station-and-find-max"
+        }
+      ]
+    },
+    {
+      "id": "dodger",
+      "title": "Waiting for Dodger — dwóch policjantów",
+      "game": "phantom_liberty",
+      "quest_ids": [
+        "sts_ep1_10"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "życie lub śmierć",
+        "iconic",
+        "późniejsze skutki",
+        "dalsze zadania"
+      ],
+      "hint": "Jeśli chcesz negocjować, unikaj zabijania ludzi w komisariacie. Rozstrzygnięcie wpłynie także na późniejszy los policjantów.",
+      "decision_point": "Garaż przy samochodzie policyjnym; wcześniej los strażników.",
+      "branches": [
+        {
+          "label": "Pokojowe wyjście",
+          "action": "Nie zabijaj strażników i doprowadź do wyjawienia Dodgerowi całej prawdy.",
+          "immediate": "Policjanci wychodzą żywi.",
+          "delayed": "Później Bill skarży się na szantaż Dodgera; można go spotkać w Glen.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Zabicie Dodgera",
+          "action": "Pokonaj Dodgera i zadbaj, by policjanci przeżyli.",
+          "immediate": "Usuwasz ich prześladowcę.",
+          "delayed": "Bill otwiera później New Person, Same Old Mistakes.",
+          "reward": "Rosco z ciała Dodgera.",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Volkodav znajduje się w skrzyni przed garażem i można go zebrać niezależnie od końcowej decyzji."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Waiting for Dodger",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Waiting_for_Dodger"
+        }
+      ]
+    },
+    {
+      "id": "rinder",
+      "title": "The Man Who Killed Jason Foreman — Leon Rinder",
+      "game": "phantom_liberty",
+      "quest_ids": [
+        "sts_ep1_03"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "życie lub śmierć",
+        "iconic",
+        "późniejsze skutki"
+      ],
+      "hint": "Przeszukaj motel i wysłuchaj Rindera. Istnieje droga związana z pomocą, wykraczająca poza zabicie albo przyjęcie oferty.",
+      "decision_point": "Rozmowa z Rinderem w pokoju na piętrze motelu.",
+      "branches": [
+        {
+          "label": "Pomoc i oszczędzenie",
+          "action": "Zbadaj ślady na miejscu zbrodni i wybierz rozmowę uświadamiającą mu skutki jego działań. Przyłóż broń do głowy, zażądaj kontaktu z Reginą i odbierz nieśmiertelnik.",
+          "immediate": "Rinder zostaje skierowany do leczenia.",
+          "delayed": "Dostajesz późniejszą wiadomość; Addicted to Chaos prowadzi do jego skrytki.",
+          "reward": "Dezerter w skrytce.",
+          "condition": "Zbadanie miejsca zbrodni przed wizytą w motelu odblokowuje potrzebną wiedzę o cyberpsychozie."
+        },
+        {
+          "label": "Układ",
+          "action": "Oszczędź go w zamian za informację o skrytce i zabierz nieśmiertelnik.",
+          "immediate": "Rinder zostaje przy życiu bez tego samego rozwiązania dotyczącego leczenia.",
+          "delayed": "Możesz otworzyć Addicted to Chaos.",
+          "reward": "Dezerter w skrytce.",
+          "condition": ""
+        },
+        {
+          "label": "Egzekucja",
+          "action": "Zabij Rindera i odbierz nieśmiertelnik.",
+          "immediate": "Spełniasz żądanie klientki.",
+          "delayed": "Nie otrzymujesz od niego ścieżki leczenia ani zadania skrytki.",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Nieśmiertelnik pozwala domknąć kontrakt także przy oszczędzeniu celu. Broń w skrytce nie jest dowodem jego zrehabilitowania."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: The Man Who Killed Jason Foreman",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_The_Man_Who_Killed_Jason_Foreman"
+        },
+        {
+          "label": "Cyberpunk Wiki — Addicted to Chaos",
+          "url": "https://cyberpunk.fandom.com/wiki/Addicted_to_Chaos"
+        }
+      ]
+    },
+    {
+      "id": "aaron-boxer",
+      "title": "No Easy Way Out — Aaron i Angie",
+      "game": "phantom_liberty",
+      "quest_ids": [
+        "mq306"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "życie lub śmierć",
+        "iconic",
+        "późniejsze skutki"
+      ],
+      "hint": "Zwycięstwo w walce nie gwarantuje uratowania Aarona. Historia z Sasquatch może dać trzecią opcję.",
+      "decision_point": "Rozmowa z Angie w klinice, a następnie rada dla Aarona.",
+      "branches": [
+        {
+          "label": "Układ Angie",
+          "action": "Przyjmij udział w ustawionym zakładzie i odejdź.",
+          "immediate": "Aaron pozostaje pod kontrolą Animals.",
+          "delayed": "Angie później rozlicza układ; Fred jest rozczarowany.",
+          "reward": "",
+          "condition": ""
+        },
+        {
+          "label": "Zabicie Angie",
+          "action": "Odrzuć układ i zabij Angie z obstawą.",
+          "immediate": "Wygrywasz starcie.",
+          "delayed": "Animals później zabijają Aarona; ciało znajdziesz za Dream Gig.",
+          "reward": "Cheetah z ciała Angie.",
+          "condition": ""
+        },
+        {
+          "label": "Zastraszenie i własna droga",
+          "action": "Zastrasz Angie wzmianką o Sasquatch, a Aaronowi doradź uczciwą walkę.",
+          "immediate": "Angie ustępuje; Aaron przeżywa.",
+          "delayed": "Przegrywa walkę, lecz wyjeżdża do Kostaryki, by próbować kariery.",
+          "reward": "",
+          "condition": "Wcześniejsze pokonanie Sasquatch; opcja nie jest dostępna przy pominięciu podstawki przez start PL."
+        },
+        {
+          "label": "Zastraszenie i pozostanie",
+          "action": "Po zastraszeniu Angie doradź podłożenie się albo odwołaj się do jego przeszłości.",
+          "immediate": "Aaron przeżywa.",
+          "delayed": "Zostaje pod wpływem Animals, ale zaczyna trenować dzieci w Dogtown.",
+          "reward": "",
+          "condition": "Ten sam warunek związany z Sasquatch."
+        }
+      ],
+      "notes": [],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — No Easy Way Out",
+          "url": "https://cyberpunk.fandom.com/wiki/No_Easy_Way_Out"
+        },
+        {
+          "label": "PC Gamer — los Aarona",
+          "url": "https://www.pcgamer.com/cyberpunk-2077-no-easy-way-out-angie-aaron/"
+        }
+      ]
+    },
+    {
+      "id": "milko",
+      "title": "Treating Symptoms — Milko i Alan",
+      "game": "phantom_liberty",
+      "quest_ids": [
+        "sts_ep1_12"
+      ],
+      "chain_ids": [],
+      "tags": [
+        "netrunner",
+        "życie lub śmierć",
+        "późniejsze skutki"
+      ],
+      "hint": "Przed egzekucją celu wysłuchaj osoby przy stanowisku. Operacja może obejmować więcej osób niż sam szantażysta.",
+      "decision_point": "Pokój Milko po przejściu przez siedzibę Voodoo Boys.",
+      "branches": [
+        {
+          "label": "Pozostawienie operacji",
+          "action": "Wysłuchaj Alana i pozwól NetWatch dokończyć operację; pozostaw Milko przy życiu.",
+          "immediate": "Operacja przeciw szantażystom trwa.",
+          "delayed": "Hands otrzymuje zapewnienie ochrony klientki. Specjalna opcja Corpo może dodatkowo otworzyć Corpo of the Month.",
+          "reward": "",
+          "condition": "Dodatkowe zadanie skrytki wymaga wskazanej odpowiedzi ścieżki Corpo; nie gwarantujemy go nomadce."
+        },
+        {
+          "label": "Zabicie celu",
+          "action": "Odmów Alanowi i zneutralizuj Milko.",
+          "immediate": "Zlecenie zostaje wykonane, lecz operacja NetWatch zostaje przerwana.",
+          "delayed": "",
+          "reward": "",
+          "condition": ""
+        }
+      ],
+      "notes": [
+        "Opisy poradników różnią się w warunkach dodatkowej skrytki. Warunek Corpo podajemy według Wiki, zamiast obiecywać nagrodę każdej postaci."
+      ],
+      "verification": "source_checked",
+      "sources": [
+        {
+          "label": "Cyberpunk Wiki — Gig: Treating Symptoms",
+          "url": "https://cyberpunk.fandom.com/wiki/Gig%3A_Treating_Symptoms"
+        },
+        {
+          "label": "Cyberpunk Wiki — Corpo of the Month",
+          "url": "https://cyberpunk.fandom.com/wiki/Corpo_of_the_Month"
+        },
+        {
+          "label": "VULKK — Milko i Alan",
+          "url": "https://vulkk.com/2023/10/01/cyberpunk-2077-treating-symptoms-guide-what-to-do-with-milko/"
+        }
+      ]
+    }
+  ]
+}

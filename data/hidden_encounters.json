@@ -1,0 +1,194 @@
+{
+  "schema": "cp2077-companion/hidden-encounters-v1",
+  "dataset_version": 1,
+  "records": [
+    {
+      "id": "beat-on-the-brat-glen-stay-after-fight",
+      "title": "César Ruiz — zostań po walce",
+      "district": "Heywood",
+      "subdistrict": "The Glen",
+      "location": "boisko / miejsce walki z Césarem",
+      "coordinates": null,
+      "map_ref": null,
+      "interaction_type": "post_quest",
+      "conditions": {
+        "related_quest_state": "after_fight",
+        "time_of_day": null,
+        "peaceful_approach": true,
+        "do_not_attack_first": false,
+        "wait_after_objective": true,
+        "choice_sensitive": true,
+        "notes": "Scena po walce zależy od decyzji dotyczącej nagrody; hint celowo nie zdradza rezultatu."
+      },
+      "hint": "Po walce nie odchodź od razu. Zostań przez chwilę w pobliżu Césara i Micaeli.",
+      "miss_risk": "high",
+      "related_activity": {
+        "id": "mq025_05_glen",
+        "name": "Beat on the Brat: The Glen",
+        "type": "side_job"
+      },
+      "user_status": "unknown",
+      "sources": [
+        {
+          "kind": "wiki",
+          "title": "Cyberpunk Wiki — Beat on the Brat: The Glen",
+          "url": "https://cyberpunk.fandom.com/wiki/Beat_on_the_Brat:_The_Glen",
+          "supports": "Potwierdza, że wybór nagrody wpływa na rozmowę Césara i Micaeli po walce."
+        },
+        {
+          "kind": "community",
+          "title": "LowSodiumCyberpunk — sweet moment after the fight",
+          "url": "https://www.reddit.com/r/LowSodiumCyberpunk/comments/l0cven/beat_on_the_brat_the_glen_has_a_really_sweet/",
+          "supports": "Relacja gracza opisuje łatwą do przeoczenia rozmowę usłyszaną przy odchodzeniu po walce."
+        }
+      ],
+      "verification": {
+        "status": "multi_source",
+        "verified_patch": "2.x / behavior historically documented; recheck on 2.31 welcome",
+        "note": "Istnienie rozmowy po walce jest dobrze potwierdzone; wpis zachowuje spoiler-light i nie opisuje jej treści."
+      },
+      "editorial_notes": "Nie umieszczać treści rozmowy na karcie listy."
+    },
+    {
+      "id": "padre-the-glen-bleachers-dialogue",
+      "title": "Padre — rozmowa przy boisku",
+      "district": "Heywood",
+      "subdistrict": "The Glen",
+      "location": "trybuny / okolice boiska przy walce z Césarem",
+      "coordinates": null,
+      "map_ref": null,
+      "interaction_type": "npc_dialogue",
+      "conditions": {
+        "related_quest_state": "around_or_after_activity",
+        "time_of_day": null,
+        "peaceful_approach": true,
+        "do_not_attack_first": false,
+        "wait_after_objective": true,
+        "choice_sensitive": false,
+        "notes": "Obecność Padre przy boisku i możliwość rozmowy są potwierdzone społecznościowo. Dokładny warunek 'dopiero po walce' wymaga jeszcze weryfikacji."
+      },
+      "hint": "Po zakończeniu walki rozejrzyj się za Padre. Można z nim jeszcze porozmawiać.",
+      "miss_risk": "high",
+      "related_activity": {
+        "id": "mq025_05_glen",
+        "name": "Beat on the Brat: The Glen",
+        "type": "side_job"
+      },
+      "user_status": "unknown",
+      "sources": [
+        {
+          "kind": "community",
+          "title": "LowSodiumCyberpunk — Padre's thoughts on Dex",
+          "url": "https://www.reddit.com/r/LowSodiumCyberpunk/comments/mzwj5o/",
+          "supports": "Użytkownicy wskazują Padre siedzącego przy boisku walki z Césarem i możliwość dodatkowej rozmowy."
+        },
+        {
+          "kind": "user_observation",
+          "title": "Własna obserwacja podczas rozgrywki",
+          "url": null,
+          "supports": "Zgłoszona możliwość rozmowy z Padre po aktywności przy walce Césara."
+        }
+      ],
+      "verification": {
+        "status": "needs_verification",
+        "verified_patch": null,
+        "note": "Nie przedstawiać jako pewnego triggera post-fight, dopóki warunek czasowy nie zostanie potwierdzony w danych gry lub drugim mocnym źródle."
+      },
+      "editorial_notes": "Dobry kandydat do późniejszej weryfikacji przez .scene/.quest w WolvenKit."
+    },
+    {
+      "id": "stadium-love-holster-first",
+      "title": "Stadium Love — najpierw bez broni",
+      "district": "Santo Domingo",
+      "subdistrict": "Rancho Coronado",
+      "location": "impreza 6th Street / dachy w Rancho Coronado",
+      "coordinates": null,
+      "map_ref": null,
+      "interaction_type": "hidden_interaction",
+      "conditions": {
+        "related_quest_state": "on_arrival",
+        "time_of_day": null,
+        "peaceful_approach": true,
+        "do_not_attack_first": true,
+        "wait_after_objective": false,
+        "choice_sensitive": true,
+        "notes": "Wyciągnięcie broni przed rozmową powoduje wrogość; spokojne podejście otwiera alternatywny przebieg."
+      },
+      "hint": "Nie rozpoczynaj walki od razu. Schowaj broń i podejdź do zgromadzenia 6th Street.",
+      "miss_risk": "high",
+      "related_activity": {
+        "id": "mq008_party",
+        "name": "Stadium Love",
+        "type": "side_job"
+      },
+      "user_status": "unknown",
+      "sources": [
+        {
+          "kind": "wiki",
+          "title": "Cyberpunk Wiki — Stadium Love",
+          "url": "https://cyberpunk.fandom.com/wiki/Stadium_Love",
+          "supports": "Potwierdza, że wyciągnięcie broni kończy pokojową ścieżkę i powoduje wrogość 6th Street, a spokojna rozmowa pozwala zostać."
+        },
+        {
+          "kind": "walkthrough",
+          "title": "PowerPyx — Stadium Love Walkthrough",
+          "url": "https://www.powerpyx.com/cyberpunk-2077-stadium-love-walkthrough/",
+          "supports": "Dokumentuje pokojowe i agresywne warianty rozpoczęcia aktywności."
+        }
+      ],
+      "verification": {
+        "status": "multi_source",
+        "verified_patch": "2.x behavior; quest documentation cross-checked",
+        "note": "Warunek spokojnego podejścia jest dobrze udokumentowany."
+      },
+      "editorial_notes": "Flagować w szybkim filtrze 'Nie strzelaj od razu'."
+    },
+    {
+      "id": "only-pain-talk-before-fight",
+      "title": "Only Pain — najpierw sprawdź rozmowę",
+      "district": "Heywood",
+      "subdistrict": "Vista del Rey",
+      "location": "alejka z trzema funkcjonariuszami NCPD",
+      "coordinates": null,
+      "map_ref": null,
+      "interaction_type": "conditional_dialogue",
+      "conditions": {
+        "related_quest_state": "on_arrival",
+        "time_of_day": null,
+        "peaceful_approach": true,
+        "do_not_attack_first": true,
+        "wait_after_objective": false,
+        "choice_sensitive": true,
+        "notes": "NPC mogą wyglądać jak oczywisty cel walki, ale interwencję można rozpocząć rozmową; Streetkid ma dodatkową opcję dialogową."
+      },
+      "hint": "Nie zakładaj automatycznie, że żółte oznaczenia oznaczają obowiązkową walkę. Najpierw podejdź i sprawdź możliwość rozmowy.",
+      "miss_risk": "high",
+      "related_activity": {
+        "id": null,
+        "name": "Only Pain",
+        "type": "side_job"
+      },
+      "user_status": "unknown",
+      "sources": [
+        {
+          "kind": "wiki",
+          "title": "Cyberpunk Wiki — Only Pain",
+          "url": "https://cyberpunk.fandom.com/wiki/Only_Pain",
+          "supports": "Potwierdza rozpoczęcie interwencji przez rozmowę z Officer Aldwyn i dodatkową ścieżkę dialogową dla Streetkid."
+        },
+        {
+          "kind": "walkthrough",
+          "title": "PowerPyx — Only Pain Walkthrough",
+          "url": "https://www.powerpyx.com/cyberpunk-2077-only-pain-walkthrough/",
+          "supports": "Potwierdza, że po podejściu do funkcjonariuszy V otrzymuje wybór interwencji, odejścia lub ścieżkę Streetkid bez natychmiastowej walki."
+        }
+      ],
+      "verification": {
+        "status": "multi_source",
+        "verified_patch": "2.x behavior documented",
+        "note": "Pokojowa/rozmowna możliwość jest bezpośrednio opisana; hint nie zdradza konsekwencji wyborów."
+      },
+      "editorial_notes": "Flagować w szybkim filtrze 'Nie strzelaj od razu'."
+    }
+  ]
+}

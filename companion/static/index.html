@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CP2077 Companion</title>
+  <link rel="stylesheet" href="/styles.css?v=0.8.2">
+</head>
+<body>
+  <noscript>Do działania panelu włącz JavaScript.</noscript>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">LOKALNIE // TYLKO ODCZYT</div>
+      <h1>CYBERPUNK 2077 <span>COMPANION</span></h1>
+    </div>
+    <div class="top-actions">
+      <label class="language" for="language">Język <select id="language" aria-label="Język panelu"><option value="pl" selected>Polski</option><option value="en">English</option></select></label>
+      <button id="refresh">Odśwież</button>
+      <a class="button" href="/api/assistant-context.json">assistant-context.json</a>
+      <a class="button" href="/api/assistant-context.md">assistant-context.md</a>
+    </div>
+  </header>
+
+  <section class="panel save-picker" aria-label="Wybór zapisu">
+    <label for="save-select">Zapis gry</label>
+    <select id="save-select"><option value="">Najnowszy automatycznie</option></select>
+    <button id="load-save">Wczytaj wybrany zapis</button>
+    <span id="save-current" role="status" aria-live="polite"></span>
+    <div id="save-error" role="alert"></div>
+    <span id="scan-warning" role="status"></span>
+    <small>Wybór wspólny dla kart, do restartu aplikacji. Historia obejmuje wszystkie zapisy. Ręczne oznaczenia należą do wybranej rozgrywki.</small>
+  </section>
+
+  <nav class="tabs" aria-label="Sekcje">
+    <button data-tab="overview" class="active">Przegląd</button>
+    <button data-tab="character">Postać</button>
+    <button data-tab="loadout">Wyposażenie</button>
+    <button data-tab="quickhacks">Quickhacki / cyberdeck</button>
+    <button data-tab="quest-choices">Decyzje i konsekwencje</button>
+    <button data-tab="reaper">Gotowość do sekretnego finału</button>
+    <button data-tab="hidden-encounters">Ukryte interakcje</button>
+    <button data-tab="world">Stan świata</button>
+    <button data-tab="inventory">Ekwipunek</button>
+    <button data-tab="iconic">Bronie ikoniczne</button>
+    <button data-tab="endings">Zakończenia</button>
+    <button data-tab="quests">Zadania</button>
+    <button data-tab="history">Historia zapisów</button>
+    <button data-tab="raw">Parser</button>
+  </nav>
+
+  <main>
+    <section id="loading" class="panel">Czytam zapisy…</section>
+    <section id="error" class="panel error hidden"></section>
+
+    <section id="overview" class="tab-panel hidden">
+      <div id="hero" class="hero"></div>
+      <div id="metrics" class="metrics"></div>
+      <div class="two-col">
+        <article class="panel">
+          <h2>Atrybuty</h2>
+          <div id="attributes" class="attributes"></div>
+        </article>
+        <article class="panel">
+          <h2>Aktualny zapis</h2>
+          <div id="current" class="kv"></div>
+        </article>
+      </div>
+      <article class="panel screenshot-panel">
+        <div class="panel-heading">
+          <h2>Zrzut ekranu z gry</h2>
+          <span class="muted">z wybranego zapisu</span>
+        </div>
+        <img id="screenshot" alt="Screenshot wybranego zapisu">
+      </article>
+    </section>
+
+
+    <section id="character" class="tab-panel hidden">
+      <div id="development-metrics" class="metrics"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">PLAYERDEVELOPMENTDATA</div><h2>Umiejętności 2.x</h2></div>
+          <span class="muted">Headhunter / Netrunner / Shinobi / Solo / Engineer są czytane bezpośrednio z sav.dat.</span>
+        </div>
+        <div id="skill-grid" class="skill-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">ROZWÓJ POSTACI // ATUTY</div><h2>Wykupione atuty</h2></div>
+          <input id="perk-filter" type="search" placeholder="Szukaj: Focus, Head to Head, Tech_Master…">
+        </div>
+        <div id="perk-trees" class="perk-trees"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading"><h2>Surowe pule punktów rozwoju</h2><span class="muted">Pokazujemy też wewnętrzny typ; niczego nie dopowiadamy poza znanym mapowaniem Attribute / Primary / Espionage.</span></div>
+        <div id="devpoints" class="table-wrap"></div>
+      </article>
+    </section>
+
+
+    <section id="loadout" class="tab-panel hidden">
+      <div id="loadout-metrics" class="metrics"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">EQUIPMENTSYSTEM // ENTITYID 1</div><h2>Aktualnie wyposażona broń</h2></div>
+          <span class="muted">To są aktywne sloty Weapon zapisane w sav.dat, nie przedmioty znalezione gdzieś w plecaku.</span>
+        </div>
+        <div id="equipped-weapons" class="loadout-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">EQUIPMENTSYSTEM // CYBERWARE</div><h2>Aktualnie wszczepione cyberware</h2></div>
+          <span class="muted">Slot i TweakDBID pochodzą z EquipmentSystem; nazwa z lokalnego resolvera / opcjonalnego cet_catalog.tsv.</span>
+        </div>
+        <div class="table-wrap tall">
+          <table><thead><tr><th>Gniazdo</th><th>Wszczep</th><th>TweakDBID</th><th>Skrót</th></tr></thead><tbody id="equipped-cyberware"></tbody></table>
+        </div>
+      </article>
+      <div class="two-col">
+        <article class="panel">
+          <div class="panel-heading"><div><div class="eyebrow">STATPOOLSSYSTEM</div><h2>Zdrowie</h2></div></div>
+          <div id="health-stats" class="kv"></div>
+          <div id="health-resolution-note" class="capacity-warning"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-heading"><div><div class="eyebrow">STATSSYSTEM</div><h2>Człowieczeństwo / limit wszczepów</h2></div></div>
+          <div id="humanity-stats" class="kv"></div>
+          <div class="capacity-warning">Efektywny limit wszczepów pozostaje <strong>nieustalony</strong>. Panel pokazuje zapisane człowieczeństwo bez zgadywania wyniku gry.</div>
+        </article>
+      </div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">STATSSYSTEM // ZAPISANE DANE</div><h2>Nazwane wejścia / modyfikatory gracza</h2></div>
+          <span class="muted">To zapisane wejścia i modyfikatory, nie końcowe statystyki wyliczone przez silnik. W szczególności nie traktujemy ich jako Max Health.</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Źródło</th><th>Statystyka</th><th>Typ</th><th>Wartość</th><th>Skrót</th></tr></thead>
+            <tbody id="stats-system-rows"></tbody>
+          </table>
+        </div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">STATPOOLSSYSTEM // ENTITYID=1</div><h2>Wszystkie zapisane pule gracza</h2></div>
+          <span class="muted">To surowe pule utrwalone w sav.dat. Obecność np. SandevistanCharge nie jest dowodem, że Sandevistan jest aktualnie wyposażony.</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Typ puli</th><th>Statystyka</th><th>Maks.</th><th>Obecnie</th><th>Własny limit</th><th>Tryb</th><th>ID rekordu</th></tr></thead>
+            <tbody id="stat-pool-rows"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section id="quickhacks" class="tab-panel hidden">
+      <div class="encounter-intro">
+        <div><div class="eyebrow">NETRUNNER // WYBRANY ZAPIS</div><h2>Quickhacki / cyberdeck</h2><p>Gotowe programy i ich schematy, pogrupowane według rodziny i generacji.</p></div>
+        <div id="quickhack-metrics" class="encounter-metrics"></div>
+      </div>
+      <article class="panel">
+        <div class="panel-heading"><h2>System operacyjny</h2><span class="muted">Wyposażony w wybranym zapisie</span></div>
+        <div id="quickhack-deck" class="loadout-grid"></div>
+        <p id="quickhack-slot-note" class="capacity-warning"></p>
+      </article>
+      <article class="panel">
+        <div class="panel-heading"><h2>Znajdź program lub schemat</h2></div>
+        <div class="discovery-filters">
+          <label>Nazwa<input id="quickhack-search" type="search" placeholder="Atak wirusowy, Memory Wipe…"></label>
+          <label>Rodzaj<select id="quickhack-kind"><option value="">Programy i schematy</option><option value="program">Gotowe programy</option><option value="recipe">Schematy</option></select></label>
+          <label>Gdzie<select id="quickhack-location"><option value="owned">Plecak i schowek</option><option value="player">Plecak</option><option value="stash">Schowek</option><option value="other">Inne / nieustalone kontenery</option><option value="">Wszystkie odczytane</option></select></label>
+          <label>Generacja<select id="quickhack-tier"><option value="">Wszystkie</option><option value="1">I</option><option value="2">II</option><option value="3">III</option><option value="4">IV</option><option value="5">V</option><option value="unknown">Nieustalona</option></select></label>
+        </div>
+        <p id="quickhack-count" class="muted" role="status"></p>
+      </article>
+      <div id="quickhack-list" class="discovery-grid"></div>
+      <article class="panel"><h2>Generacje i wytwarzanie</h2><ul id="quickhack-notes" class="readiness-notes"></ul><div id="quickhack-sources" class="guide-links"></div></article>
+    </section>
+
+    <section id="quest-choices" class="tab-panel hidden">
+      <div class="encounter-intro">
+        <div><div class="eyebrow">FABUŁA // WYBORY // PÓŹNIEJSZE SKUTKI</div><h2>Decyzje i konsekwencje</h2><p>Najpierw trop. Warianty i dalsze losy postaci odkryjesz po rozwinięciu wybranej karty.</p></div>
+        <div id="choice-metrics" class="encounter-metrics"></div>
+      </div>
+      <article id="fork-finder" class="panel">
+        <div class="eyebrow">PHANTOM LIBERTY</div><h2>Znajdź zapis do decyzji: Dzień próby</h2>
+        <p>Wybierz u góry zapis postaci, której historię chcesz sprawdzić. Wyszukiwarka odczyta lokalne metadane z tej samej rozgrywki, również poza listą ostatnich zapisów.</p><button id="fork-search" type="button">Szukaj zapisów tej rozgrywki</button>
+        <p id="fork-status" class="muted" role="status" aria-live="polite"></p>
+        <div id="fork-results" class="hidden">
+          <label>Rodzaj zapisu <select id="fork-kind"><option value="all">Wszystkie</option><option value="manual">Ręczne</option><option value="auto">Automatyczne</option><option value="quick">Szybkie</option><option value="other">Inne / kopie o zmienionej nazwie</option></select></label>
+          <div class="decision-grid" id="fork-summary"></div><p>Aktywne zadanie nie gwarantuje, że decyzja jest jeszcze przed Tobą. Porównaj datę i czas gry w menu „Wczytaj grę”. Wczytanie pozostaje po Twojej stronie.</p>
+          <p class="muted">Podsumowanie uwzględnia wybrany rodzaj zapisu. Filtry nazwy i etapu dotyczą tabeli.</p>
+          <div class="discovery-filters"><label>Filtruj listę po nazwie slotu<input id="fork-name" type="search" placeholder="ManualSave-…"></label>
+            <label>Etap<select id="fork-stage"><option value="">Wszystkie</option><option value="candidate">Zadanie aktywne — kandydat</option><option value="known">Rozpoznana ścieżka</option><option value="songbird">Ścieżka Songbird</option><option value="reed">Ścieżka Reeda</option><option value="past">Zadanie ukończone, ścieżka nieustalona</option><option value="signal">Sygnał zadania, ścieżka nieustalona</option><option value="conflict">Sprzeczne wskazania</option></select></label></div>
+          <p id="fork-count" role="status"></p><div class="table-wrap"><table><thead><tr><th>Folder zapisu</th><th>Data i czas zapisu</th><th>Czas gry</th><th>Etap</th><th>Dowód z metadanych</th></tr></thead><tbody id="fork-rows"></tbody></table></div>
+          <button id="fork-more" type="button" class="hidden">Pokaż następne 20</button>
+        </div>
+      </article>
+      <article class="panel">
+        <div class="discovery-filters">
+          <label>Nazwa lub trop<input id="choice-search" type="search" placeholder="Blue Moon, Anna, Joshua…"></label>
+          <label>Gra<select id="choice-game"><option value="">Podstawka i Phantom Liberty</option><option value="base">Podstawka</option><option value="phantom_liberty">Phantom Liberty</option></select></label>
+          <label>Temat<select id="choice-tag"><option value="">Wszystkie tematy</option></select></label>
+          <label>Sygnał z zapisu<select id="choice-status"><option value="">Wszystkie</option><option value="active">Śledzone zadanie</option><option value="signal">Sygnał zadania / łańcucha</option><option value="done">Ukończenie potwierdzone</option><option value="unknown">Nie ustalono</option></select></label>
+        </div>
+        <p id="choice-count" class="muted" role="status"></p>
+        <p class="muted">Wyszukiwanie obejmuje nazwy, tropy i tematy. Nie przeszukuje ukrytych konsekwencji.</p>
+      </article>
+      <div id="choice-list" class="discovery-grid"></div>
+      <article class="panel"><h2>Odczyt i źródła</h2><ul id="choice-notes" class="readiness-notes"></ul></article>
+    </section>
+
+    <section id="reaper" class="tab-panel hidden">
+      <div id="reaper-hero"></div>
+      <div id="reaper-metrics" class="metrics"></div>
+      <div id="reaper-profiles" class="profile-grid"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">GOTOWOŚĆ POSTACI // KRYTERIA OCENY</div><h2>Don't Fear the Reaper</h2></div>
+          <span class="muted">GOTOWE oznacza, że postać spełnia podstawowe warunki. Nie gwarantuje wygranej ani odblokowania sekretnego dialogu.</span>
+        </div>
+        <div id="reaper-groups" class="readiness-groups"></div>
+      </article>
+      <div class="two-col">
+        <article class="panel">
+          <div class="panel-heading"><h2>Co poprawić przed próbą</h2><span class="muted">Braki i zalecenia wynikające z widocznych kryteriów.</span></div>
+          <div id="reaper-next" class="next-actions"></div>
+        </article>
+        <article class="panel">
+          <div class="panel-heading"><h2>Ograniczenia analizy</h2><span class="muted">Co można wywnioskować z zapisu gry.</span></div>
+          <ul id="reaper-notes" class="readiness-notes"></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="hidden-encounters" class="tab-panel hidden">
+      <div class="encounter-intro">
+        <div>
+          <div class="eyebrow">ODKRYWANIE ŚWIATA // BEZ ZDRADZANIA FABUŁY</div>
+          <h2>Ukryte interakcje</h2>
+          <p>Czy w tym miejscu warto zwolnić, schować broń albo zostać chwilę dłużej? Karty pokazują tylko trop — rezultat odkrywasz sam.</p>
+        </div>
+        <button id="legacy-import" class="hidden">Importuj dawne oznaczenia do tej rozgrywki</button>
+      <div id="hidden-encounter-metrics" class="encounter-metrics"></div>
+      </div>
+
+      <article class="panel encounter-filter-panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">FILTRY</div><h2>Znajdź scenę bez spoilerów</h2></div>
+          <label class="shoot-first-toggle"><input id="enc-do-not-shoot" type="checkbox"> <strong>Nie strzelaj od razu</strong></label>
+        </div>
+        <div class="encounter-filters">
+          <input id="enc-search" type="search" placeholder="Szukaj: The Glen, Padre, Stadium Love…">
+          <select id="enc-district" aria-label="Dzielnica"><option value="">Wszystkie dzielnice</option></select>
+          <select id="enc-type" aria-label="Typ interakcji"><option value="">Wszystkie typy</option></select>
+          <select id="enc-activity" aria-label="Powiązana aktywność"><option value="">Wszystkie questy / aktywności</option></select>
+          <select id="enc-status" aria-label="Status użytkownika"><option value="">Każdy status</option><option value="unknown">Nieznane</option><option value="discovered">Odkryte</option><option value="completed">Ukończone</option></select>
+          <select id="enc-risk" aria-label="Ryzyko przegapienia"><option value="">Każde ryzyko</option><option value="high">Łatwe do przegapienia</option><option value="medium">Średnie ryzyko</option><option value="low">Niskie ryzyko</option></select>
+          <select id="enc-time" aria-label="Wymagana pora dnia"><option value="">Dowolna pora</option><option value="required">Wymaga określonej pory</option><option value="none">Bez wymogu pory</option></select>
+          <select id="enc-peaceful" aria-label="Spokojne podejście"><option value="">Dowolne podejście</option><option value="yes">Warto podejść spokojnie</option><option value="no">Nie wymaga spokojnego podejścia</option></select>
+        </div>
+      </article>
+
+      <div id="hidden-encounter-count" class="encounter-count muted"></div>
+      <div id="hidden-encounter-list" class="encounter-list"></div>
+      <article class="panel encounter-data-note">
+        <strong>Baza jest celowo mała.</strong> Nie importujemy przypadkowych „sekretów” z Internetu. Każdy rekord ma źródła i status weryfikacji; słabsze tropy są oznaczone zamiast przedstawiane jako fakt.
+      </article>
+    </section>
+
+    <section id="world" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">DOWODY Z ZAPISU</div>
+            <h2>Stan świata i decyzje</h2>
+          </div>
+          <span class="muted">Nie zgadujemy: pokazujemy flagę i jej wartość.</span>
+        </div>
+        <div id="decisions" class="decision-grid"></div>
+      </article>
+    </section>
+
+    <section id="inventory" class="tab-panel hidden">
+      <div id="inventory-metrics" class="metrics"></div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">TWEAKDBID // TYLKO ODCZYT</div>
+            <h2>Rozpoznane przedmioty</h2>
+          </div>
+          <span class="muted">Schowek: storage ID 1000000. Pozostałe kontenery nie potwierdzają własności przedmiotu.</span>
+        </div>
+        <div id="inventory-known" class="item-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">NAGRODY ZA ZAKOŃCZENIE</div>
+            <h2>Pride / Prejudice</h2>
+          </div>
+          <span class="muted">Brak TweakDBID w save to wynik diagnostyczny, nie dowód, że nagroda nie została przyznana.</span>
+        </div>
+        <div id="reward-probes" class="item-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">ITEMDATA // KATALOG TWEAKDB</div>
+            <h2>Plecak i pozostałe kontenery</h2>
+          </div>
+          <input id="inventory-filter" type="search" placeholder="Szukaj: Ba Xing, Items., cyberware, hash…">
+        </div>
+        <div id="catalog-note" class="catalog-note"></div>
+        <div class="table-wrap tall">
+          <table>
+            <thead><tr><th>Gdzie</th><th>Nazwa</th><th>TweakDBID</th><th>Kategoria</th><th>Ilość</th><th>Skrót</th><th>Węzeł</th></tr></thead>
+            <tbody id="inventory-rows"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section id="iconic" class="tab-panel hidden">
+      <div class="iconic-intro">
+        <div><div class="eyebrow">KOLEKCJA // TYLKO ODCZYT</div><h2>Ikoniczne bronie</h2><p>Porównanie katalogu referencyjnego z wyposażeniem i itemData wybranego save&#x27;a.</p></div>
+        <div id="iconic-metrics" class="metrics compact"></div>
+      </div>
+      <article class="panel">
+        <div class="panel-heading">
+          <div><div class="eyebrow">FILTRY</div><h2>Co masz, a czego brakuje</h2></div>
+          <span class="muted">Liczymy unikalne modele w wyposażeniu, plecaku i schowku. Pozostałe kontenery nie potwierdzają posiadania.</span>
+        </div>
+        <div class="iconic-filters">
+          <input id="iconic-search" type="search" placeholder="Szukaj: Malorian, Dogtown, sniper…">
+          <select id="iconic-status"><option value="">Każdy stan</option><option value="owned">Posiadane</option><option value="missing">Brak w wybranym zapisie</option><option value="equipped">Wyposażone</option><option value="inventory">Plecak</option><option value="stash">Schowek</option><option value="other">Inny kontener</option><option value="unknown">Nieznane</option></select>
+          <select id="iconic-collection" aria-label="Grupa kolekcji"><option value="">Wszystkie grupy</option><option value="special_reward">Nagrody specjalne / promocyjne</option><option value="story_choice">Zależne od decyzji fabularnych</option></select>
+          <select id="iconic-game"><option value="">Podstawka i Phantom Liberty</option><option value="base">Podstawka</option><option value="phantom_liberty">Phantom Liberty</option></select>
+          <select id="iconic-guide-filter" aria-label="Weryfikacja poradnika"><option value="">Wszystkie opisy</option><option value="source_checked">Opisy sprawdzone w źródłach</option><option value="needs_verification">Opisy do weryfikacji</option><option value="map">Z odnośnikiem do znacznika</option></select>
+          <select id="iconic-availability" aria-label="Warunki z poradnika"><option value="">Wszystkie warunki</option><option value="decision_dependent">Zależna od decyzji</option><option value="account_or_promo">Nagroda konta</option><option value="unknown">Nie oceniono</option></select>
+          <select id="iconic-method" aria-label="Sposób zdobycia"><option value="">Każdy sposób zdobycia</option><option value="loot">Łup</option><option value="quest">Nagroda / zadanie</option><option value="crafting">Schemat i wytworzenie</option><option value="exploration">Eksploracja</option><option value="purchase">Zakup</option><option value="account">Nagroda konta</option><option value="unknown">Niepotwierdzone</option></select>
+        </div>
+      </article>
+      <div id="iconic-count" class="encounter-count muted"></div>
+      <p id="iconic-guide-summary" class="muted"></p>
+      <div class="iconic-pages"><button id="iconic-prev">Poprzednia</button><span id="iconic-page" aria-live="polite"></span><button id="iconic-next">Następna</button></div>
+      <div class="table-wrap iconic-table"><table><thead><tr><th>Stan</th><th>Broń</th><th>Gra / typ</th><th>Jak zdobyć</th><th>Lokalizacja</th></tr></thead><tbody id="iconic-rows"></tbody></table></div>
+      <div class="iconic-pages"><button id="iconic-prev-bottom">Poprzednia</button><span id="iconic-page-bottom" aria-live="polite"></span><button id="iconic-next-bottom">Następna</button></div>
+      <article class="panel iconic-note"><strong>Zakres v0.8.2:</strong> 112 modeli broni, w tym nagrody specjalne i X-MOD2. Bez granatów, cyberware i quickhacków; nie gwarantujemy kompletności dla każdej wersji gry. Warunki z poradnika nie określają dostępności broni w tym przejściu. „BRAK w save” nadal oznacza tylko brak broni w wybranym zapisie. Opisy mogą zawierać spoilery.</article>
+    </section>
+
+    <section id="endings" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">ŚLADY ŚLEDZONYCH ZADAŃ</div>
+            <h2>Rozegrane ścieżki / zakończenia</h2>
+          </div>
+          <span class="muted">Wykrywane z wewnętrznych ścieżek questów zapisanych w historii save&#x27;ów.</span>
+        </div>
+        <div id="ending-cards" class="decision-grid"></div>
+      </article>
+    </section>
+
+    <section id="quests" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <h2>Dziennik zadań</h2>
+          <input id="quest-filter" type="search" placeholder="Szukaj: Panam, Peralez, q305…">
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Status</th><th>ID</th><th>Quest / historia</th><th>Grupa</th><th>Dowód</th></tr></thead>
+            <tbody id="quest-rows"></tbody>
+          </table>
+        </div>
+        <p class="muted">Status „brak sygnału” nie oznacza, że quest jest niedostępny. Oznacza tylko, że obecna wersja parsera nie ma wystarczającego dowodu.</p>
+      </article>
+    </section>
+
+    <section id="history" class="tab-panel hidden">
+      <article class="panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">HISTORIA ROZGRYWEK</div>
+            <h2>Historia zapisów</h2>
+          </div>
+          <input id="history-filter" type="search" placeholder="ManualSave, data, tracked quest…">
+        </div>
+        <div id="history-stats" class="metrics compact"></div>
+        <div class="table-wrap tall">
+          <table>
+            <thead><tr><th>Gałąź</th><th>Zapis</th><th>Data</th><th>h</th><th>Poz.</th><th>SC</th><th>Ukończone</th><th>Śledzone</th></tr></thead>
+            <tbody id="history-rows"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section id="raw" class="tab-panel hidden">
+      <div class="two-col">
+        <article class="panel">
+          <h2>Parser sav.dat</h2>
+          <div id="parser" class="kv"></div>
+        </article>
+        <article class="panel">
+          <h2>Eksport dla ChatGPT</h2>
+          <p>Te pliki możesz samodzielnie udostępnić zamiast całego zapisu gry.</p>
+          <div class="export-actions">
+            <a class="button primary" href="/api/assistant-context.json">Pobierz JSON</a>
+            <a class="button" href="/api/assistant-context.md">Pobierz Markdown</a>
+          </div>
+        </article>
+      </div>
+      <article class="panel">
+        <h2>Surowe ID ukończonych questów</h2>
+        <pre id="finished"></pre>
+      </article>
+    </section>
+  </main>
+
+  <footer>CP2077 Companion v0.8.2 // działa lokalnie // nie zapisuje niczego do save&#x27;ów</footer>
+  <script src="/boot.js?v=0.8.2"></script>
+  <script id="companion-app" src="/app.js?v=0.8.2"></script>
+</body>
+</html>

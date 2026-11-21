@@ -1,0 +1,4403 @@
+{
+  "schema": "cp2077-companion/iconic-registry-v2",
+  "weapons": [
+    {
+      "id": "widow-maker",
+      "name": "Widow Maker",
+      "game": "base",
+      "weapon_type": "Precision Rifle",
+      "tweakdb_ids": [
+        "Items.Preset_Achilles_Nash",
+        "Items.Preset_Achilles_Nash_Legendary"
+      ],
+      "acquisition": "Pokonaj Nasha podczas wyprawy z Panam i przeszukaj jego ciało.",
+      "location": "Badlands; kryjówka Raffen Shiv",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Ghost Town",
+        "npc": "Nash",
+        "method": "loot",
+        "conditions": "Wybór pomocy Panam prowadzi do tej walki.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Widow Maker",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1037/widow-maker"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Widow Maker",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=930415",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "malorian-arms-3516",
+      "name": "Malorian Arms 3516",
+      "game": "base",
+      "weapon_type": "Power Pistol",
+      "tweakdb_ids": [
+        "Items.Preset_Silverhand_3516"
+      ],
+      "acquisition": "Odbierz pistolet Graysonowi podczas wyprawy z Rogue na statek.",
+      "location": "Watson, Northside; statek Ebunike",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Chippin' In",
+        "npc": "Grayson",
+        "method": "quest",
+        "conditions": "Wymaga rozwinięcia wątku Johnny’ego i Rogue.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Malorian Arms 3516",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1087/malorian-arms-3516"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Malorian Arms 3516",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=934364",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "prototype-shingen-mark-v",
+      "name": "Prototype: Shingen Mark V",
+      "game": "base",
+      "weapon_type": "Smart SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Shingen_Prototype"
+      ],
+      "acquisition": "Wejdź do otwartego kontenera 667. Usuń minę i zabierz broń.",
+      "location": "Santo Domingo, Arroyo; Arasaka Industrial Park, kontener 667",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Gimme Danger (opcjonalnie)",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Nie trzeba czekać na zadanie Gimme Danger.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Prototype: Shingen Mark V",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1071/prototype-shingen-mark-v"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Prototype: Shingen Mark V",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=927062",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "overwatch",
+      "name": "Overwatch",
+      "game": "base",
+      "weapon_type": "Power Sniper Rifle",
+      "tweakdb_ids": [
+        "Items.Preset_Grad_Panam",
+        "Items.Preset_Grad_Panam_Epic",
+        "Items.Preset_Grad_Panam_Legendary"
+      ],
+      "acquisition": "Po uratowaniu Saula odbierz karabin od Panam; szukaj go przy motocyklu.",
+      "location": "Badlands; końcowe spotkanie z Panam",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Riders on the Storm",
+        "npc": "Panam",
+        "method": "quest",
+        "conditions": "Dokończ zadanie Panam.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Overwatch",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1053/overwatch"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Overwatch",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=931619",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "breakthrough",
+      "name": "Breakthrough",
+      "game": "base",
+      "weapon_type": "Tech Sniper Rifle",
+      "tweakdb_ids": [
+        "Items.Preset_Nekomata_Breakthrough",
+        "Items.Epic_Nekomata_Breakthrough",
+        "Items.Preset_Nekomata_Breakthrough_Legendary",
+        "Items.Common_Nekomata_Breakthrough",
+        "Items.Uncommon_Nekomata_Breakthrough",
+        "Items.Rare_Nekomata_Breakthrough",
+        "Items.Legendary_Nekomata_Breakthrough"
+      ],
+      "acquisition": "Zabierz schemat przywódcy podczas aktywności NCPD, następnie wytwórz karabin.",
+      "location": "Santo Domingo, Rancho Coronado",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "New Boss, New Rules — NCPD",
+        "npc": "Przywódca grupy",
+        "method": "crafting",
+        "conditions": "Zdobycie schematu nie oznacza posiadania gotowej broni.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Breakthrough",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1039/breakthrough"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Breakthrough",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=927488",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "ba-xing-chong",
+      "name": "Ba Xing Chong",
+      "game": "base",
+      "weapon_type": "Smart Shotgun",
+      "tweakdb_ids": [
+        "Items.Preset_Zhuo_Eight_Star",
+        "Items.Legendary_Zhuo_Eight_Star",
+        "Items.Common_Zhuo_Eight_Star",
+        "Items.Uncommon_Zhuo_Eight_Star",
+        "Items.Rare_Zhuo_Eight_Star",
+        "Items.Epic_Zhuo_Eight_Star"
+      ],
+      "acquisition": "Po walce finałowej zabierz kartę Smashera. Po powrocie do swobodnej gry otwórz kajutę na Ebunike, zabierz schemat i wytwórz broń.",
+      "location": "Watson, Northside; zamknięta kajuta na Ebunike",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Finał gry; Chippin' In",
+        "npc": "Adam Smasher",
+        "method": "crafting",
+        "conditions": "Wymaga karty dostępu z finału.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Ba Xing Chong",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1077/ba-xing-chong"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Ba Xing Chong",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=933221",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "pride",
+      "name": "Pride",
+      "game": "base",
+      "weapon_type": "Power Pistol",
+      "tweakdb_ids": [
+        "Items.Preset_Liberty_Rogue",
+        "Items.Preset_Liberty_Rogue_Stash"
+      ],
+      "acquisition": "Po walce ze Smasherem podnieś pistolet Rogue.",
+      "location": "City Center, Corpo Plaza; Arasaka Tower",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Finał z Rogue",
+        "npc": "Rogue",
+        "method": "quest",
+        "conditions": "Wybierz finał z pomocą Rogue; wcześniej ukończ jej wątek.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Pride",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3139/pride"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Pride",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=934415",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "story_choice"
+      ]
+    },
+    {
+      "id": "prejudice",
+      "name": "Prejudice",
+      "game": "base",
+      "weapon_type": "Power Assault Rifle",
+      "tweakdb_ids": [
+        "Items.Preset_Masamune_Rogue",
+        "Items.Preset_Masamune_Rogue_Stash"
+      ],
+      "acquisition": "Zabierz karabin ze zbrojowni podczas przygotowań do finału z Rogue.",
+      "location": "Watson, Little China; Afterlife",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Finał z Rogue",
+        "npc": "Rogue",
+        "method": "quest",
+        "conditions": "Wymaga odblokowania finału Rogue przez Blistering Love.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Prejudice",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3077/prejudice"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Prejudice",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=934416",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "story_choice"
+      ]
+    },
+    {
+      "id": "byakko",
+      "name": "Byakko",
+      "game": "base",
+      "weapon_type": "Katana",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_Wakako",
+        "Items.Preset_Katana_Wakako_Legendary"
+      ],
+      "acquisition": "Ukończ wszystkie zlecenia Wakako i odbierz nagrodę ze schowka V.",
+      "location": "Schowek V; zlecenia w Westbrook",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Professional Widow",
+        "npc": "Wakako Okada",
+        "method": "quest",
+        "conditions": "Miejscem odbioru jest schowek, a nie biuro Wakako.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Byakko",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/988/byakko"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Byakko",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=930116",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "satori",
+      "name": "Satori",
+      "game": "base",
+      "weapon_type": "Katana",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_Saburo",
+        "Items.Preset_Katana_Saburo_Epic",
+        "Items.Preset_Katana_Saburo_Legendary"
+      ],
+      "acquisition": "Podczas skoku wejdź na lądowisko na dachu i przeszukaj AV.",
+      "location": "Watson, Arasaka Waterfront; dach Konpeki Plaza",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "The Heist",
+        "npc": "Saburo Arasaka",
+        "method": "loot",
+        "conditions": "Zabierz przed opuszczeniem Konpeki Plaza.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Satori",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/991/satori"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Satori",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=606427",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "nehan",
+      "name": "Nehan",
+      "game": "base",
+      "weapon_type": "Knife",
+      "tweakdb_ids": [
+        "Items.Preset_Tanto_Saburo",
+        "Items.Preset_Tanto_Saburo_Retrofix"
+      ],
+      "acquisition": "Przeszukaj ciało Saburo w penthousie.",
+      "location": "Konpeki Plaza",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "The Heist",
+        "npc": "Saburo",
+        "method": "loot",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Nehan",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=606419",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "kongou",
+      "name": "Kongou",
+      "game": "base",
+      "weapon_type": "Power Pistol",
+      "tweakdb_ids": [
+        "Items.Preset_Liberty_Yorinobu",
+        "Items.Preset_Liberty_Yorinobu_Epic",
+        "Items.Preset_Liberty_Yorinobu_Legendary"
+      ],
+      "acquisition": "Przeszukaj sypialnię w penthousie i zabierz pistolet.",
+      "location": "Watson, Arasaka Waterfront; penthouse Konpeki Plaza",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "The Heist",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Zabierz podczas skoku, zanim opuścisz hotel.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — Kongou",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1055/kongou"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Kongou",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=606414",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "sulimov",
+      "name": "PIZDETS",
+      "game": "phantom_liberty",
+      "weapon_type": "Smart SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Warden_Boris"
+      ],
+      "acquisition": "Broń do zdobycia podczas zlecenia Spy in the Jungle; źródło zawiera film z przejściem.",
+      "location": "Obszar zlecenia Spy in the Jungle",
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Spy in the Jungle",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Wymaga odblokowania zlecenia w Phantom Liberty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — PIZDETS",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3096/pizdets"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [],
+      "name_pl": "Sulimov",
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ]
+    },
+    {
+      "id": "skippy",
+      "name": "SKIPPY",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "SMART PISTOL",
+      "tweakdb_ids": [
+        "Items.mq007_skippy",
+        "Items.mq007_skippy_post_quest",
+        "Items.Preset_Yukimura_Skippy",
+        "Items.Preset_Yukimura_Skippy_PostQuest"
+      ],
+      "acquisition": "Podejdź do znacznika zadania w zaułku i podnieś broń przy ciele.",
+      "location": "Heywood, Vista del Rey; zaułek przy zwłokach",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Machine Gun",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Broń rozpoczyna własny wątek; jej zachowanie zależy od dialogów.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — SKIPPY",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1066/skippy"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — SKIPPY",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=929745",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "borzaya",
+      "name": "BORZAYA",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SNIPER RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Grad_AirDrop"
+      ],
+      "acquisition": "Po Lucretia My Reflection sprawdź zrzut w okolicy Brave Atlas.",
+      "location": "Dogtown; Golden Pacific, okolice Brave Atlas",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Lucretia My Reflection",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Źródło wskazuje zrzut po ukończeniu zadania. Companion nie sprawdza zawartości przyszłych zrzutów.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — BORZAYA",
+            "url": "https://cyberpunk.gameslantern.com/weapons/borzaya"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "rasetsu",
+      "name": "RASETSU",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH SNIPER RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Rasetsu_Prototype"
+      ],
+      "acquisition": "Kontynuuj sekwencję snajperską w Black Sapphire. V zabierze karabin ze stanowiska.",
+      "location": "Dogtown; Black Sapphire",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "You Know My Name",
+        "npc": "",
+        "method": "quest",
+        "conditions": "Wymaga Phantom Liberty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — RASETSU",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3110/rasetsu"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "sparky",
+      "name": "SPARKY",
+      "name_pl": "Szpila",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SNIPER RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Grad_Scav"
+      ],
+      "acquisition": "Zabierz klucz z drona Arasaki i otwórz zamkniętą skrytkę w aktywności Scavów.",
+      "location": "Dogtown; zamknięta skrytka w aktywności Scavów",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Increased Criminal Activity: SCAVENGERS",
+        "npc": "Dron Arasaki",
+        "method": "loot",
+        "conditions": "Potrzebny klucz do skrytki; dokładny punkt podróży pozostaje niepotwierdzony.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — SPARKY",
+            "url": "https://cyberpunk.gameslantern.com/weapons/sparky"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "m-179e-achilles-x-mod2",
+      "name": "M-179E ACHILLES X-MOD2",
+      "name_pl": "Achilles X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH PRECISION RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Achilles_Collectible"
+      ],
+      "acquisition": "Odszukaj ukryte pomieszczenie w budynku Black Sapphire; poradnik zawiera film z dojściem.",
+      "location": "Dogtown; ukryte pomieszczenie przy Black Sapphire",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Wymaga Phantom Liberty; dokładne wejście sprawdź w poradniku.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — M-179E ACHILLES X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3109/achilles-x-mod2"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "hypercritical",
+      "name": "HYPERCRITICAL",
+      "name_pl": "Ostatni krytyk",
+      "game": "base",
+      "weapon_type": "POWER PRECISION RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Kolac_Tiny_Mike_Legendary",
+        "Items.Preset_Kolac_Tiny_Mike"
+      ],
+      "acquisition": "Podnieś karabin w pomieszczeniu z Mikiem.",
+      "location": "Kabuki; łazienka",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Concrete Cage Trap",
+        "npc": "Tiny Mike",
+        "method": "loot",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — HYPERCRITICAL",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=929919",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "hawk",
+      "name": "HAWK",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Kyubi_Myers"
+      ],
+      "acquisition": "Wróć do kryjówki po odejściu Myers i zabierz pozostawiony karabin.",
+      "location": "Dogtown; kryjówka przy Kress Street",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Lucretia My Reflection",
+        "npc": "Rosalind Myers",
+        "method": "loot",
+        "conditions": "Odbiór po odejściu Myers; stan zadania w tym zapisie nie jest sprawdzany.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — HAWK",
+            "url": "https://cyberpunk.gameslantern.com/weapons/hawk"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "moron-labe",
+      "name": "MORON LABE",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Ajax_Moron_Legendary",
+        "Items.Preset_Ajax_Moron",
+        "Items.Common_Ajax_Moron",
+        "Items.Uncommon_Ajax_Moron",
+        "Items.Rare_Ajax_Moron",
+        "Items.Epic_Ajax_Moron",
+        "Items.Legendary_Ajax_Moron"
+      ],
+      "acquisition": "Zabierz schemat Antonowi Kolevowi podczas aktywności NCPD i wytwórz karabin.",
+      "location": "Okolice West Wind Estate / południowe Badlands",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Podejrzenie przestępczości zorganizowanej — NCPD",
+        "npc": "Anton Kolev",
+        "method": "crafting",
+        "conditions": "Źródła różnie opisują granicę dzielnicy; użyj znacznika aktywności.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — MORON LABE",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1081/moron-labe"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — MORON LABE",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=927524",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "erebus",
+      "name": "EREBUS",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Borg4a_HauntedGun",
+        "Items.Common_Borg4a_HauntedGun",
+        "Items.Uncommon_Borg4a_HauntedGun",
+        "Items.Rare_Borg4a_HauntedGun",
+        "Items.Epic_Borg4a_HauntedGun",
+        "Items.Legendary_Borg4a_HauntedGun"
+      ],
+      "acquisition": "W Somewhat Damaged zbierz schemat Erebus i komponent systemu behawioralnego z robota. Po wiadomości uruchamiającej This Corrosion oddaj komponent Yoko, a następnie wytwórz broń.",
+      "location": "Podziemny kompleks Cynosure; Engineering, pomieszczenie Maintenance przy terminalu Sierra",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "Firestarter → Somewhat Damaged → This Corrosion",
+        "npc": "Yoko; robot Cerberus",
+        "method": "crafting",
+        "conditions": "W Firestarter wybierz pomoc Reedowi. Przy drzwiach Maintenance przekieruj zasilanie przez skrzynkę w pobliskim magazynku; schemat leży na stole. Opisana w poradniku droga wykorzystuje 20 Zdolności technicznych. Z jednego komponentu wybierasz Erebus albo Militech Canto MK.6, nie oba przedmioty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "EIP — schemat w Somewhat Damaged",
+            "url": "https://eip.gg/cyberpunk-2077/guides/somewhat-damaged-mission/"
+          },
+          {
+            "label": "EIP — komponent i This Corrosion",
+            "url": "https://eip.gg/cyberpunk-2077/guides/how-to-get-erebus-and-militech-canto-mk-6/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "story_choice"
+      ]
+    },
+    {
+      "id": "wild-dog",
+      "name": "WILD DOG",
+      "name_pl": "Odyniec",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER HMG",
+      "tweakdb_ids": [
+        "Items.Preset_Defender_Kurt"
+      ],
+      "acquisition": "Przeszukaj Hansena po walce w Firestarter i zabierz karabin maszynowy.",
+      "location": "Dogtown; miejsce walki z Hansenem",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Firestarter",
+        "npc": "Kurt Hansen",
+        "method": "loot",
+        "conditions": "Opis dotyczy łupu po walce; Companion nie ustala dostępności tej ścieżki w zapisie.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — WILD DOG",
+            "url": "https://cyberpunk.gameslantern.com/weapons/wild-dog"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "fenrir",
+      "name": "FENRIR",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Saratoga_Maelstrom_Epic",
+        "Items.Preset_Saratoga_Maelstrom_Legendary",
+        "Items.Preset_Saratoga_Maelstrom"
+      ],
+      "acquisition": "Zabierz broń ze stołu przy uwalnianym mnichu.",
+      "location": "Northside; magazyn",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Sacrum Profanum",
+        "npc": "Mnich",
+        "method": "loot",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — FENRIR",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=605347",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "problem-solver",
+      "name": "PROBLEM SOLVER",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Saratoga_Raffen_Epic",
+        "Items.Preset_Saratoga_Raffen_Legendary",
+        "Items.Preset_Saratoga_Raffen"
+      ],
+      "acquisition": "Przeszukaj silnego przeciwnika przy głównym wejściu do obozu.",
+      "location": "Badlands; wejście do obozu Wraiths",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Riders on the Storm",
+        "npc": "Strażnik Wraiths przy wejściu",
+        "method": "loot",
+        "conditions": "Zabierz broń podczas wyprawy ratunkowej.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — PROBLEM SOLVER",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1243/problem-solver"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — PROBLEM SOLVER",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=931609",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "raiju",
+      "name": "RAIJU",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Senkoh_Prototype"
+      ],
+      "acquisition": "Pokonaj Rossa Ulmera, zabierz klucz i otwórz końcową skrytkę.",
+      "location": "Dogtown; baza Barghest z Rossem Ulmerem",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Increased Criminal Activity",
+        "npc": "Ross Ulmer",
+        "method": "exploration",
+        "conditions": "Wymaga Phantom Liberty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — RAIJU",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3106/raiju"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "yinglong",
+      "name": "YINGLONG",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "SMART SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Dian_Yinglong",
+        "Items.Common_Dian_Yinglong",
+        "Items.Uncommon_Dian_Yinglong",
+        "Items.Rare_Dian_Yinglong",
+        "Items.Epic_Dian_Yinglong",
+        "Items.Legendary_Dian_Yinglong"
+      ],
+      "acquisition": "Zdobądź schemat z ciała Denzela Cryera i wytwórz broń.",
+      "location": "Heywood, Wellsprings",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Living the Big Life — NCPD",
+        "npc": "Denzel Cryer",
+        "method": "crafting",
+        "conditions": "Schemat i gotowa broń to osobne przedmioty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — YINGLONG",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1074/yinglong"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — YINGLONG",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=927765",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "guts-carnage",
+      "name": "Guts",
+      "name_pl": "Guts",
+      "game": "base",
+      "weapon_type": "POWER SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Carnage_Edgerunners_Legendary",
+        "Items.Preset_Carnage_Edgerunners"
+      ],
+      "acquisition": "Przeszukaj krzaki w południowej części parku, niedaleko punktu Arasaka Tower.",
+      "location": "City Center, Corpo Plaza; południowa część Memorial Park",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Broń leży w otwartym świecie.",
+        "fast_travel": "Arasaka Tower",
+        "sources": [
+          {
+            "label": "Gamestegy — Guts",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3155/guts"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — Guts",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=928809",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "the-headsman",
+      "name": "THE HEADSMAN",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Tactician_Headsman_Legendary",
+        "Items.Preset_Tactician_Headsman",
+        "Items.Common_Tactician_Headsman",
+        "Items.Uncommon_Tactician_Headsman",
+        "Items.Rare_Tactician_Headsman",
+        "Items.Epic_Tactician_Headsman",
+        "Items.Legendary_Tactician_Headsman"
+      ],
+      "acquisition": "Zniszcz mecha w magazynie, zabierz schemat i wytwórz strzelbę.",
+      "location": "Westbrook, North Oak; magazyn bazy Militechu",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Podejrzenie przestępczości zorganizowanej — NCPD",
+        "npc": "Mech Militechu",
+        "method": "crafting",
+        "conditions": "Zdobycie samego schematu nie potwierdza posiadania strzelby.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — THE HEADSMAN",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1078/the-headsman"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — THE HEADSMAN",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=926476",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "mox",
+      "name": "MOX",
+      "name_pl": "Moxxy",
+      "game": "base",
+      "weapon_type": "POWER SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Carnage_Mox_Epic",
+        "Items.Preset_Carnage_Mox_Legendary",
+        "Items.Preset_Carnage_Mox"
+      ],
+      "acquisition": "Odbierz strzelbę w kuchni; utrzymaj dobre relacje z Judy.",
+      "location": "Mieszkanie Judy",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Pyramid Song",
+        "npc": "Judy",
+        "method": "quest",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — MOX",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=932997",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "bloody-maria",
+      "name": "BLOODY MARIA",
+      "name_pl": "Wściekły pies",
+      "game": "base",
+      "weapon_type": "POWER SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Tactician_Dino",
+        "Items.Preset_Tactician_Dino_Legendary"
+      ],
+      "acquisition": "Ukończ zlecenia El Capitana w Santo Domingo.",
+      "location": "Schowek V",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Ride Captain Ride",
+        "npc": "Muamar Reyes",
+        "method": "quest",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — BLOODY MARIA",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=930469",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "dezerter",
+      "name": "DEZERTER",
+      "name_pl": "Bratobójca",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER DB SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Testera_Nicolas"
+      ],
+      "acquisition": "Oszczędź Rindera i przyjmij układ. Kolejne zadanie zaprowadzi do garażu; kod: 1975.",
+      "location": "Dogtown; garaż wskazany przez Leona Rindera",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "The Man Who Killed Jason Foreman → Addicted to Chaos",
+        "npc": "Leon Rinder",
+        "method": "quest",
+        "conditions": "Opis dotyczy ścieżki z przyjęciem układu Rindera.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — DEZERTER",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3145/dezerter"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "ambition",
+      "name": "AMBITION",
+      "name_pl": "Ambicja",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Kenshin_Spy"
+      ],
+      "acquisition": "Odbierz pistolet od Hasana podczas Go Your Own Way.",
+      "location": "Miejsce spotkania z Hasanem wskazane przez zadanie",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Go Your Own Way",
+        "npc": "Hasan Demir",
+        "method": "quest",
+        "conditions": "Potwierdzono nagrodę w tym zadaniu. Warunki odblokowania Go Your Own Way wymagają dalszej weryfikacji.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — AMBITION",
+            "url": "https://cyberpunk.gameslantern.com/weapons/ambition"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "death-and-taxes",
+      "name": "DEATH AND TAXES",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Nue_Maiko_Epic",
+        "Items.Preset_Nue_Maiko_Legendary",
+        "Items.Preset_Nue_Maiko"
+      ],
+      "acquisition": "Zabierz pistolet z biura Maiko podczas wizyty w Clouds.",
+      "location": "Westbrook, Japantown; biuro Maiko w Clouds",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Ex-Factor",
+        "npc": "Maiko",
+        "method": "loot",
+        "conditions": "Poradnik podaje też późniejsze pojawienie się w mieszkaniu Judy, jeśli pominięto broń.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — DEATH AND TAXES",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1242/death-and-taxes"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — DEATH AND TAXES",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=931801",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "genjiroh",
+      "name": "GENJIROH",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "SMART PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Yukimura_Kiji_Legendary",
+        "Items.Preset_Yukimura_Kiji"
+      ],
+      "acquisition": "Przeszukaj biuro w posiadłości Arasaków. Alternatywnie podczas parady otwórz pomieszczenie na 21. piętrze kodem 2906.",
+      "location": "Westbrook; posiadłość Arasaków w North Oak lub 21. piętro podczas parady",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Play It Safe (jedna z dróg)",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Dwie lokalizacje tej samej broni; liczymy jeden model.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — GENJIROH",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1064/genjiroh"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — GENJIROH (1)",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=932396",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          },
+          {
+            "label": "Mapa — GENJIROH (2)",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=933119",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "dying-night",
+      "name": "DYING NIGHT",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.mq011_wilson_gun",
+        "Items.Preset_Lexington_Wilson_Epic",
+        "Items.Preset_Lexington_Wilson_Legendary",
+        "Items.Preset_Lexington_Wilson_Rare",
+        "Items.Preset_Lexington_Wilson",
+        "Items.Preset_Q001_Lexington"
+      ],
+      "acquisition": "Odbierz darmowy pistolet w sklepie Wilsona po prologu.",
+      "location": "Watson, Little China; sklep Wilsona przy mieszkaniu V",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "The Gun",
+        "npc": "Robert Wilson",
+        "method": "quest",
+        "conditions": "Nagroda dostępna wcześnie w grze.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — DYING NIGHT",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3127/dying-night"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — DYING NIGHT",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=605035",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "her-majesty",
+      "name": "HER MAJESTY",
+      "name_pl": "Jej Wysokość",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Unity_Agent"
+      ],
+      "acquisition": "Podczas przygotowań odbierz pistolet przed zabraniem sprzętu do nurkowania.",
+      "location": "Dogtown; tajna baza podczas przygotowania infiltracji",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Get It Together",
+        "npc": "Alex",
+        "method": "quest",
+        "conditions": "Wymaga postępu w głównym wątku Phantom Liberty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — HER MAJESTY",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3150/her-majesty"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "lexington-x-mod-2",
+      "name": "LEXINGTON X-MOD 2",
+      "name_pl": "Lexington X-MOD2",
+      "game": "base",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Lexington_Shooting_Competition"
+      ],
+      "acquisition": "Wygraj konkurs strzelecki Wilsona i odbierz nagrodę.",
+      "location": "Watson, Little China; strzelnica Wilsona",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Shoot to Thrill",
+        "npc": "Robert Wilson",
+        "method": "quest",
+        "conditions": "Wymagane pierwsze miejsce; zadanie pojawia się po Akcie 1.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — LEXINGTON X-MOD 2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3140/lexington-x-mod2"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — LEXINGTON X-MOD 2",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=917839",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "ogou",
+      "name": "OGOU",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "SMART PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Chao_VooDoo"
+      ],
+      "acquisition": "Pokonaj robota w bazie i przeszukaj go.",
+      "location": "Dogtown; baza Voodoo Boys na wzgórzu",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Treating Symptoms",
+        "npc": "Robot Arasaka R Mk.2",
+        "method": "loot",
+        "conditions": "Wymaga Phantom Liberty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — OGOU",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3095/ogou"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "plan-b",
+      "name": "PLAN B",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Liberty_Dex_Epic",
+        "Items.Preset_Liberty_Dex_Legendary",
+        "Items.Preset_Liberty_Dex"
+      ],
+      "acquisition": "Przeszukaj Dextera po rozpoczęciu Aktu 2.",
+      "location": "Badlands; zwłoki Dextera",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — PLAN B",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=917858",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "scorch",
+      "name": "SCORCH",
+      "name_pl": "Pożoga",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Ticon_Gwent"
+      ],
+      "acquisition": "Odbierz nagrodę MY REWARDS: zaloguj grę z Phantom Liberty na konto CD PROJEKT RED i sprawdź schowek w mieszkaniu V.",
+      "location": "Mieszkanie V; schowek z nagrodami MY REWARDS",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "",
+        "method": "account",
+        "conditions": "Wymagane Phantom Liberty i uprawnienie nagrody na koncie. Aktualna instrukcja CDPR opisuje powiązanie konta z Wiedźminem 3; starsze poradniki wskazują GWENT. Sprawdź warunki dla swojej platformy w oficjalnym MY REWARDS. Companion nie odczytuje uprawnień konta.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "CD PROJEKT RED — MY REWARDS, instrukcje dla platform",
+            "url": "https://www.cyberpunk.net/en/myrewards"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "special_reward"
+      ]
+    },
+    {
+      "id": "riskit",
+      "name": "RISKIT",
+      "name_pl": "Ryzyk-Fizyk",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Nue_Bree"
+      ],
+      "acquisition": "W Shot by Both Sides zabierz pistolet Bree: z jej ciała, jeśli zginie, lub ze stołu, jeśli przeżyje.",
+      "location": "Miejsce finałowej konfrontacji w Shot by Both Sides",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Shot by Both Sides",
+        "npc": "Bree Whitney",
+        "method": "loot",
+        "conditions": "Opis obejmuje oba wyniki spotkania z Bree; nie potwierdza możliwości powrotu.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — RISKIT",
+            "url": "https://cyberpunk.gameslantern.com/weapons/riskit"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "seraph",
+      "name": "SERAPH",
+      "name_pl": "Serafin",
+      "game": "base",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Liberty_Padre_Legendary",
+        "Items.Preset_Liberty_Padre"
+      ],
+      "acquisition": "Ukończ 11 zleceń Padre. Po kontakcie od niego odbierz pistolet ze schowka.",
+      "location": "Schowek V; zlecenia w Heywood",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "God Bless This Mess",
+        "npc": "Sebastian Ibarra / Padre",
+        "method": "quest",
+        "conditions": "Nagroda za serię zleceń.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — SERAPH",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3141/seraph"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — SERAPH",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=930470",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "bald-eagle",
+      "name": "BALD EAGLE",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Metel_Kurt"
+      ],
+      "acquisition": "Wybierz pomoc Reedowi, a po walce przeszukaj Hansena.",
+      "location": "Dogtown; walka z Kurtem Hansenem",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Firestarter",
+        "npc": "Kurt Hansen",
+        "method": "loot",
+        "conditions": "Broń zależna od wybranej ścieżki fabularnej.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — BALD EAGLE",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3142/bald-eagle"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "story_choice"
+      ]
+    },
+    {
+      "id": "archangel",
+      "name": "ARCHANGEL",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Overture_Kerry_Epic",
+        "Items.Preset_Overture_Kerry_Legendary",
+        "Items.Preset_Overture_Kerry"
+      ],
+      "acquisition": "Po koncercie odbierz rewolwer od Kerry’ego.",
+      "location": "Santo Domingo, Arroyo; koncert Samurai",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "A Like Supreme",
+        "npc": "Kerry Eurodyne",
+        "method": "quest",
+        "conditions": "Wymaga kontynuowania wątku Johnny’ego i Kerry’ego.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — ARCHANGEL",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1085/archangel"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — ARCHANGEL",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=934387",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "crash",
+      "name": "CRASH",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Overture_River_Legendary",
+        "Items.Preset_Overture_River",
+        "Items.sq029_rivers_gun"
+      ],
+      "acquisition": "Dokończ serię zadań Rivera i odbierz jego rewolwer.",
+      "location": "Badlands; finał wątku Rivera",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Following the River",
+        "npc": "River Ward",
+        "method": "quest",
+        "conditions": "Wymaga ukończenia wątku towarzysza.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — CRASH",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1086/crash"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — CRASH",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=932392",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "doom-doom",
+      "name": "DOOM DOOM",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Nova_Doom_Doom_Epic",
+        "Items.Preset_Nova_Doom_Doom_Legendary",
+        "Items.Preset_Nova_Doom_Doom"
+      ],
+      "acquisition": "Doprowadź do przeżycia Dum Duma w The Pickup. Później zabierz mu broń podczas walki w Second Conflict.",
+      "location": "Watson, Northside; spotkanie z Maelstromem",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "The Pickup → Second Conflict",
+        "npc": "Dum Dum",
+        "method": "loot",
+        "conditions": "Wcześniejsze decyzje mogą wykluczyć tę ścieżkę.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — DOOM DOOM",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1241/doom-doom"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — DOOM DOOM",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=934381",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "story_choice"
+      ]
+    },
+    {
+      "id": "ol-reliable",
+      "name": "OL' RELIABLE",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Overture_Dante"
+      ],
+      "acquisition": "Stań po stronie Bree, pokonaj Dantego i zabierz jego rewolwer.",
+      "location": "Dogtown; końcowa konfrontacja w zadaniu Bree",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Shot by Both Sides",
+        "npc": "Dante",
+        "method": "loot",
+        "conditions": "Zależne od rozstrzygnięcia konfrontacji.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — OL' RELIABLE",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3143/ol-reliable"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "mancinella",
+      "name": "MANCINELLA",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Nova_Hitman"
+      ],
+      "acquisition": "Kontynuuj zadanie Mr. Handsa odblokowane po Firestarter; broń jest częścią tej misji.",
+      "location": "Dogtown; spotkanie z Mr. Handsem",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Run This Town",
+        "npc": "Mr. Hands",
+        "method": "quest",
+        "conditions": "Wymaga Phantom Liberty i odpowiedniego etapu fabuły.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — MANCINELLA",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3144/mancinella"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "rosco",
+      "name": "ROSCO",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Overture_Dodger"
+      ],
+      "acquisition": "Po walce z Dodgerem przeszukaj go i zabierz rewolwer.",
+      "location": "Miejsce spotkania z Dodgerem w zleceniu",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Waiting for Dodger",
+        "npc": "Dodger",
+        "method": "loot",
+        "conditions": "Wymaga zdobycia łupu z Dodgera; pokojowe zakończenie nie jest potwierdzeniem odbioru broni.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — ROSCO",
+            "url": "https://cyberpunk.gameslantern.com/weapons/rosco"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "bfc-9000",
+      "name": "BFC 9000",
+      "name_pl": "BWK 9000",
+      "game": "base",
+      "weapon_type": "BLUNT - ONE-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Dildo_SexShop"
+      ],
+      "acquisition": "Przeszukaj przeciwnika na skalnej półce.",
+      "location": "Rancho Coronado; poniżej zapory",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — BFC 9000",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=917855",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "tinker-bell",
+      "name": "TINKER BELL",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "BLUNT - ONE-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Baton_Tinker_Bell_Epic",
+        "Items.Preset_Baton_Tinker_Bell_Legendary",
+        "Items.Preset_Baton_Tinker_Bell",
+        "Items.sq021_peter_pan_baton"
+      ],
+      "acquisition": "Na piętrze użyj przycisku pod biurkiem i przeszukaj tajny pokój.",
+      "location": "Dom na farmie",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "The Hunt",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — TINKER BELL",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=932255",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "black-unicorn",
+      "name": "BLACK UNICORN",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "BLADE - KATANA",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_GoG_Epic",
+        "Items.Preset_Katana_GoG",
+        "Items.Preset_Katana_GoG_Crafted",
+        "Items.Preset_Katana_GoG_Legendary"
+      ],
+      "acquisition": "Sprawdź My Rewards i połączenie konta GOG.",
+      "location": "Schowek; nagrody konta",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "",
+        "npc": "",
+        "method": "account",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "special_reward"
+      ]
+    },
+    {
+      "id": "jinchu-maru",
+      "name": "JINCHU-MARU",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "BLADE - KATANA",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_Takemura_Legendary",
+        "Items.Preset_Katana_Takemura"
+      ],
+      "acquisition": "Po zwycięstwie przeszukaj pokonanego Odę.",
+      "location": "Westbrook, Japantown; trasa parady",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Play It Safe",
+        "npc": "Oda",
+        "method": "loot",
+        "conditions": "Zabierz broń przed odejściem z miejsca walki.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — JINCHU-MARU",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/992/jinchu-maru"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — JINCHU-MARU",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=933116",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "scalpel",
+      "name": "SCALPEL",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "BLADE - KATANA",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_Surgeon_Epic",
+        "Items.Preset_Katana_Surgeon_Legendary",
+        "Items.Preset_Katana_Surgeon"
+      ],
+      "acquisition": "Porozmawiaj z Dennisem w Afterlife, ukończ eskortę i podnieś katanę przy odbiorze nagrody.",
+      "location": "Watson; zadanie od Dennisa w Afterlife",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Big in Japan",
+        "npc": "Dennis",
+        "method": "quest",
+        "conditions": "Nagrodę trzeba podnieść.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — SCALPEL",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1380/scalpel"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — SCALPEL",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=928872",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "tsumetogi",
+      "name": "TSUMETOGI",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "BLADE - KATANA",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_Hiromi_Epic",
+        "Items.Preset_Katana_Hiromi_Legendary",
+        "Items.Preset_Katana_Hiromi"
+      ],
+      "acquisition": "Zabierz katanę ze stołu albo od Hiromiego.",
+      "location": "Japantown; sala spotkania",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Pisces",
+        "npc": "Hiromi Sato",
+        "method": "loot",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "MapGenie — Iconic Weapons",
+            "url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — TSUMETOGI",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=932388",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "fang",
+      "name": "FANG",
+      "name_pl": "Ursus",
+      "game": "phantom_liberty",
+      "weapon_type": "BLADE - KNIFE",
+      "tweakdb_ids": [
+        "Items.Preset_Knife_Kurtz_1"
+      ],
+      "acquisition": "Po opowiedzeniu się za Reedem w Firestarter pokonaj Hansena i zabierz jego nóż.",
+      "location": "Dogtown; miejsce walki z Hansenem",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Firestarter",
+        "npc": "Kurt Hansen",
+        "method": "loot",
+        "conditions": "Ta droga zdobycia wymaga wyboru strony Reeda.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — FANG",
+            "url": "https://cyberpunk.gameslantern.com/weapons/fang"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": [
+        "story_choice"
+      ]
+    },
+    {
+      "id": "stinger",
+      "name": "STINGER",
+      "name_pl": "",
+      "game": "base",
+      "weapon_type": "BLADE - KNIFE",
+      "tweakdb_ids": [
+        "Items.mq001_scorpions_knife",
+        "Items.Preset_Knife_Stinger_Epic",
+        "Items.Preset_Knife_Stinger_Legendary",
+        "Items.Preset_Knife_Stinger"
+      ],
+      "acquisition": "Po Riders on the Storm wykonaj zadanie Mitcha i odbierz nóż.",
+      "location": "Badlands; spotkanie z Mitchem",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "I'll Fly Away",
+        "npc": "Mitch",
+        "method": "quest",
+        "conditions": "Kontynuuj wątek Aldecaldos.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — STINGER",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/984/stinger"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — STINGER",
+            "url": "https://mapgenie.io/cyberpunk-2077/maps/night-city?locationIds=931624",
+            "kind": "marker",
+            "source_url": "https://mapgenie.io/cyberpunk-2077/guides/iconic-weapons"
+          }
+        ],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "agaou",
+      "name": "AGAOU",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "BLADE - AXE",
+      "tweakdb_ids": [
+        "Items.Preset_VB_Axe"
+      ],
+      "acquisition": "Pokonaj Ayo Zarin w kompleksie spa i przeszukaj ją.",
+      "location": "Dogtown; Luxor High Wellness Spa",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "Increased Criminal Activity",
+        "npc": "Ayo Zarin",
+        "method": "loot",
+        "conditions": "Wymaga Phantom Liberty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — AGAOU",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3037/agaou"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "cut-o-matic-x-mod2",
+      "name": "CUT-O-MATIC X-MOD2",
+      "name_pl": "",
+      "game": "phantom_liberty",
+      "weapon_type": "BLADE - CHAINSWORD",
+      "tweakdb_ids": [
+        "Items.Preset_Chainsword_Legendary"
+      ],
+      "acquisition": "Zejdź do rowu i przeszukaj stertę śmieci z ludzką głową.",
+      "location": "Dogtown; rów w pobliżu Terra Cognita",
+      "verification": "screenshot-and-record-catalog",
+      "sources": [
+        "User screenshots iconic.zip (2026-09-18)",
+        "https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-18",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Wymaga Phantom Liberty.",
+        "fast_travel": "Terra Cognita (w źródle: Terra Cogita)",
+        "sources": [
+          {
+            "label": "Gamestegy — CUT-O-MATIC X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3116/cut-o-matic-x-mod2"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      },
+      "collection_tags": []
+    },
+    {
+      "id": "alabai",
+      "name": "ALABAI",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Pozhar_AirDrop"
+      ],
+      "acquisition": "Przeszukaj fabularny zrzut w okolicy Brave Atlas.",
+      "location": "Dogtown; Longshore Stacks, okolice Brave Atlas",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Potwierdzono drogę przez zrzut; najbliższy punkt podróży niepotwierdzony.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — ALABAI",
+            "url": "https://cyberpunk.gameslantern.com/weapons/alabai"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "amnesty",
+      "name": "AMNESTY",
+      "game": "base",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Overture_Cassidy_Legendary",
+        "Items.Preset_Overture_Cassidy"
+      ],
+      "acquisition": "Wygraj próbę strzelecką Cassidy’ego: traf co najmniej 12 z 16 butelek w 15 sekund.",
+      "location": "Miejsce próby strzeleckiej Cassidy’ego w We Gotta Live Together",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "We Gotta Live Together",
+        "npc": "Cassidy",
+        "method": "quest",
+        "conditions": "Nagroda wymaga dotarcia do tego zadania i zaliczenia próby.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — AMNESTY",
+            "url": "https://cyberpunk.gameslantern.com/weapons/amnesty"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — AMNESTY",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=3766",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "amstaff",
+      "name": "AMSTAFF",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Crusher_Amazon"
+      ],
+      "acquisition": "Szukaj w zrzutach Dogtown po zdobyciu Pit Bulla.",
+      "location": "Dogtown; zrzuty",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Według źródła kolejność zrzutów wymaga wcześniejszego Pit Bulla. Dawniej także nagroda Prime Gaming; nie oznacza to aktywnej promocji.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — AMSTAFF",
+            "url": "https://cyberpunk.gameslantern.com/weapons/amstaff"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "apparition",
+      "name": "APPARITION",
+      "game": "base",
+      "weapon_type": "TECH PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Kenshin_Frank_Legendary",
+        "Items.Preset_Kenshin_Frank"
+      ],
+      "acquisition": "Zabij Franka podczas War Pigs i zabierz jego broń.",
+      "location": "Miejsce spotkania z Frankiem w War Pigs",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "War Pigs",
+        "npc": "Frank Nostra",
+        "method": "loot",
+        "conditions": "Ścieżka zadania wymaga pochodzenia Corpo.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — APPARITION",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1094/apparition"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "baby-boomer",
+      "name": "BABY BOOMER",
+      "game": "phantom_liberty",
+      "weapon_type": "BLUNT - TWO-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Baseball_Bat_Malina"
+      ],
+      "acquisition": "Po nagraniu braindansu w Dazed and Confused zabierz kij pozostawiony przez Linę Malinę.",
+      "location": "Miejsce nagrania braindansu w Dazed and Confused",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Dazed and Confused",
+        "npc": "Lina Malina",
+        "method": "quest",
+        "conditions": "Źródło wskazuje wariant bez odczytania listu Toola podczas nagrania. Pozostałe warianty nie są tu potwierdzone.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — BABY BOOMER",
+            "url": "https://cyberpunk.gameslantern.com/weapons/baby-boomer"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "baseball-bat-x-mod2",
+      "name": "BASEBALL BAT X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "BLUNT - TWO-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Baseball_Bat_Legendary"
+      ],
+      "acquisition": "Podnieś kij z przejścia dla pieszych nad drogą. Skorzystaj ze znacznika mapy.",
+      "location": "Dogtown; kładka przy piramidzie Heavy Hearts, za posłaniami",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Wymaga Phantom Liberty. Nazwa najbliższego punktu podróży niepotwierdzona.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Poradnik zdobycia — BASEBALL BAT X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3119/baseball-bat-x-mod2"
+          },
+          {
+            "label": "EIP — Baseball Bat X-MOD2",
+            "url": "https://eip.gg/cyberpunk-2077/guides/melee-weapons-2-0-phantom-liberty-dlc/"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — BASEBALL BAT X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=4931",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "blue-fang",
+      "name": "BLUE FANG",
+      "game": "base",
+      "weapon_type": "BLADE - KNIFE",
+      "tweakdb_ids": [
+        "Items.Preset_Neurotoxin_Knife_Iconic_Epic",
+        "Items.Preset_Neurotoxin_Knife_Iconic_Legendary",
+        "Items.Preset_Neurotoxin_Knife_Iconic"
+      ],
+      "acquisition": "Kup u handlarza bronią białą w Badlands. Jeśli nie ma jej w ofercie, wyjdź i sprawdź po dobie.",
+      "location": "Badlands; handlarz bronią białą",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "Handlarz bronią białą",
+        "method": "purchase",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — BLUE FANG",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1236/blue-fang"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "butchers-cleaver",
+      "name": "BUTCHER'S CLEAVER",
+      "game": "base",
+      "weapon_type": "BLADE - KNIFE",
+      "tweakdb_ids": [
+        "Items.Preset_Butchers_Knife_Iconic_Epic",
+        "Items.Preset_Butchers_Knife_Iconic_Legendary",
+        "Items.Preset_Butchers_Knife_Iconic"
+      ],
+      "acquisition": "Idąc za Placide’em, zaczekaj na scenę z kurczakiem i zabierz pozostawiony tasak.",
+      "location": "Przystanek Placide’a podczas M'ap Tann Pèlen",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "M'ap Tann Pèlen",
+        "npc": "Placide",
+        "method": "loot",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — BUTCHER'S CLEAVER",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3117/butchers-cleaver"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "buzzsaw",
+      "name": "BUZZSAW",
+      "game": "base",
+      "weapon_type": "POWER SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Pulsar_Buzzsaw_Epic",
+        "Items.Preset_Pulsar_Buzzsaw_Legendary",
+        "Items.Preset_Pulsar_Buzzsaw"
+      ],
+      "acquisition": "Pokonaj Yelenę w podziemnym parkingu aktywności NCPD, zabierz schemat i wytwórz broń.",
+      "location": "Podziemny parking aktywności NCPD",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "NCPD Scanner",
+        "npc": "Yelena Sidorova",
+        "method": "crafting",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — BUZZSAW",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3147/buzzsaw"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "caretakers-spade",
+      "name": "CARETAKER'S SPADE",
+      "game": "base",
+      "weapon_type": "BLUNT - HAMMER",
+      "tweakdb_ids": [
+        "Items.Preset_Shovel_Caretaker",
+        "Items.Preset_Shovel_Caretaker_Stash"
+      ],
+      "acquisition": "Na piętrze z dżunglą w Arasaka Tower szukaj łopaty opartej o skały.",
+      "location": "Arasaka Tower; piętro z dżunglą",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Knockin’ on Heaven’s Door",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Dostęp przez wymienione zadanie finałowe; nie oceniono jego dostępności w zapisie.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — CARETAKER'S SPADE",
+            "url": "https://cyberpunk.gameslantern.com/weapons/caretakers-spade"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "carmen",
+      "name": "CARMEN",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Umbra_Bebe"
+      ],
+      "acquisition": "Pomóż Paco podczas Balls to the Wall i odbierz nagrodę. Sposób zakończenia zadania ma znaczenie.",
+      "location": "Dogtown",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Balls to the Wall",
+        "npc": "Paco Torres",
+        "method": "quest",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — CARMEN",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3079/carmen"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "catahoula",
+      "name": "CATAHOULA",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Grit_Amazon"
+      ],
+      "acquisition": "Przeszukuj zrzuty Dogtown po zdobyciu Chinooka.",
+      "location": "Dogtown; zrzuty",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Według źródła wymaga wcześniejszego Chinooka. Historyczna nagroda Prime Gaming; promocja nie jest traktowana jako aktywna.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — CATAHOULA",
+            "url": "https://cyberpunk.gameslantern.com/weapons/catahoula"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "chaos",
+      "name": "CHAOS",
+      "game": "base",
+      "weapon_type": "TECH PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Kenshin_Royce_Epic",
+        "Items.Preset_Kenshin_Royce_Legendary",
+        "Items.Preset_Kenshin_Royce"
+      ],
+      "acquisition": "Pokonaj Royce’a podczas transakcji lub walki z bossem i przeszukaj go.",
+      "location": "Baza Maelstrom w The Pickup",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "The Pickup",
+        "npc": "Royce",
+        "method": "loot",
+        "conditions": "Wariant rozstrzygnięcia spotkania z Royce’em.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — CHAOS",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1088/chaos"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "cheetah",
+      "name": "CHEETAH",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Unity_Angelica"
+      ],
+      "acquisition": "Po walce z Angelicą zabierz jej pistolet.",
+      "location": "Dogtown; klinika Damira, finał No Easy Way Out",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "No Easy Way Out",
+        "npc": "Angelica Whelan",
+        "method": "loot",
+        "conditions": "Stań po stronie Aarona i doprowadź do walki z Angie. Broń zabierz z jej ciała.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — CHEETAH",
+            "url": "https://cyberpunk.gameslantern.com/weapons/cheetah"
+          },
+          {
+            "label": "EIP — Cheetah",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-guns-2-0-phantom-liberty-dlc/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "chesapeake",
+      "name": "CHESAPEAKE",
+      "game": "phantom_liberty",
+      "weapon_type": "SMART SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Warden_Amazon"
+      ],
+      "acquisition": "Sprawdzaj zrzuty Dogtown po osiągnięciu poziomu 40.",
+      "location": "Dogtown; zrzuty",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-23",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Poradnik Games Lantern wskazuje zrzuty w Dogtown od poziomu 40; relacja gracza dopuszcza zdobycie ze zrzutu, ale nie przypisuje go jednoznacznie do Chesapeake. ManualSave-679 potwierdza posiadanie. Dawna oferta Prime Gaming nie jest aktualną instrukcją zdobycia.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — CHESAPEAKE",
+            "url": "https://cyberpunk.gameslantern.com/weapons/chesapeake"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "chinook",
+      "name": "CHINOOK",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Kyubi_Amazon"
+      ],
+      "acquisition": "Szukaj w zrzutach Dogtown po zdobyciu Amstaffa.",
+      "location": "Dogtown; zrzuty",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Według źródła wymaga wcześniejszego Amstaffa. Historyczna nagroda Prime Gaming, bez gwarancji aktywnej promocji.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — CHINOOK",
+            "url": "https://cyberpunk.gameslantern.com/weapons/chinook"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "claw-x-mod2",
+      "name": "CLAW X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "BLADE - AXE",
+      "tweakdb_ids": [
+        "Items.Preset_Fanged_Axe_Collectible"
+      ],
+      "acquisition": "Wejdź na zewnętrzny podest Heavy Hearts Club w Dogtown. Wspinaj się po neonowych elementach piramidy aż do świetlnego wierzchołka i podnieś topór Claw X-MOD2.",
+      "location": "Dogtown; sam szczyt piramidy Heavy Hearts Club, przy wiązce światła",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-23",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Shacknews opisuje dojście przez zewnętrzny podest i wspinaczkę po neonowych elementach. Relacja gracza: broń znaleziona na szczycie piramidy; obecność w schowku potwierdza ManualSave-678 i ManualSave-679. Dostępność miejsca dla innych zapisów wynika z poradnika, nie z eksportu gracza.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Shacknews — Claw X-MOD2 na szczycie Heavy Hearts",
+            "url": "https://www.shacknews.com/article/138073/how-to-get-the-claw-x-mod2-cyberpunk-2077"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "cocktail-stick",
+      "name": "COCKTAIL STICK",
+      "game": "base",
+      "weapon_type": "BLADE - KATANA",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_Cocktail_Epic",
+        "Items.Preset_Katana_Cocktail_Legendary",
+        "Items.Preset_Katana_Cocktail"
+      ],
+      "acquisition": "Przeszukaj garderobę Clouds podczas Automatic Love i zabierz katanę Evelyn.",
+      "location": "Clouds; garderoba",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Automatic Love",
+        "npc": "Evelyn Parker",
+        "method": "loot",
+        "conditions": "Poradnik wskazuje odbiór podczas zadania; nie oceniono późniejszego dostępu.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — COCKTAIL STICK",
+            "url": "https://cyberpunk.gameslantern.com/weapons/cocktail-stick"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — COCKTAIL STICK",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=3790",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "comrades-hammer",
+      "name": "COMRADE'S HAMMER",
+      "game": "base",
+      "weapon_type": "TECH REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Burya_Comrade_Legendary",
+        "Items.Preset_Burya_Comrade",
+        "Items.Legendary_Burya_Comrade"
+      ],
+      "acquisition": "Pokonaj Dariusa Milesa w aktywności NCPD w Arroyo, zabierz schemat i wytwórz rewolwer.",
+      "location": "Santo Domingo; Arroyo, aktywność przestępczości zorganizowanej",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Suspected Organized Crime Activity: Arroyo",
+        "npc": "Darius Miles",
+        "method": "crafting",
+        "conditions": "Sam schemat nie jest liczony jako posiadana broń.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Poradnik zdobycia — COMRADE'S HAMMER",
+            "url": "https://cyberpunk.gameslantern.com/weapons/comrades-hammer"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — COMRADE'S HAMMER",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=3802",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "cottonmouth",
+      "name": "COTTONMOUTH",
+      "game": "base",
+      "weapon_type": "BLUNT - ONE-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Cane_Fingers_Epic",
+        "Items.Preset_Cane_Fingers_Legendary",
+        "Items.Preset_Cane_Fingers"
+      ],
+      "acquisition": "Przeszukaj prywatny pokój Fingersa podczas The Space in Between i zabierz laskę.",
+      "location": "Klinika Fingersa; prywatny pokój",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "The Space in Between",
+        "npc": "Fingers",
+        "method": "loot",
+        "conditions": "Poradnik opisuje odbiór podczas zadania w akcie 2; późniejszy dostęp nie został oceniony.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Poradnik zdobycia — COTTONMOUTH",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1101/cottonmouth"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — COTTONMOUTH",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=3791",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "crimestopper",
+      "name": "CRIMESTOPPER",
+      "game": "phantom_liberty",
+      "weapon_type": "SMART PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Kappa_George"
+      ],
+      "acquisition": "Podczas zlecenia przeszukaj pokój VIP 06.",
+      "location": "Dogtown; pokój VIP 06",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Heaviest of Hearts",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Wymaga dostępu do zlecenia; broń można przeoczyć.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — CRIMESTOPPER",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3094/crimestopper"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "divided-we-stand",
+      "name": "DIVIDED WE STAND",
+      "game": "base",
+      "weapon_type": "SMART ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Sidewinder_Divided_Epic",
+        "Items.Preset_Sidewinder_Divided_Legendary",
+        "Items.Preset_Sidewinder_Divided"
+      ],
+      "acquisition": "Wygraj konkurs strzelecki, zdobywając 44 punkty; alternatywnie pokonaj członków gangu i zabierz broń ze stołu.",
+      "location": "Miejsce konkursu Stadium Love",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Stadium Love",
+        "npc": "6th Street",
+        "method": "quest",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — DIVIDED WE STAND",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1069/divided-we-stand"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "errata",
+      "name": "ERRATA",
+      "game": "base",
+      "weapon_type": "BLADE - KATANA",
+      "tweakdb_ids": [
+        "Items.Preset_Katana_E3"
+      ],
+      "acquisition": "Podczas Disasterpiece zejdź do piwnicy zakładu Electric Corporation. Wyjmij katanę z dużego pieca.",
+      "location": "Santo Domingo; Electric Corporation, piwnica z piecem, na południowy wschód od Longshore South",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "Disasterpiece",
+        "npc": "Judy Alvarez",
+        "method": "loot",
+        "conditions": "Według poradnika dostęp do broni wymaga rozpoczęcia zadania. Nie oceniono możliwości powrotu w tym zapisie.",
+        "fast_travel": "Longshore South",
+        "sources": [
+          {
+            "label": "Poradnik zdobycia — ERRATA",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3088/errata"
+          },
+          {
+            "label": "EIP — Errata, punkt rozpoczęcia dojścia",
+            "url": "https://eip.gg/cyberpunk-2077/guides/melee-weapons-2-0-phantom-liberty-dlc/"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — ERRATA",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=4902",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "foxhound",
+      "name": "FOXHOUND",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH SNIPER RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Nekomata_Amazon"
+      ],
+      "acquisition": "Po zdobyciu Catahouli sprawdzaj kolejne zrzuty w Dogtown; Foxhound może pojawić się w ich łupie.",
+      "location": "Dogtown; skrzynie zrzutów zaopatrzenia, bez jednego stałego miejsca",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Historycznie nagroda Prime Gaming; opis dotyczy drogi przez zrzuty. Zdobycie Catahouli poprzedza Foxhounda według źródła. Nie każdy zrzut zawiera tę broń.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — FOXHOUND",
+            "url": "https://cyberpunk.gameslantern.com/weapons/foxhound"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "gold-plated-baseball-bat",
+      "name": "GOLD PLATED BASEBALL BAT",
+      "game": "base",
+      "weapon_type": "BLUNT - TWO-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Baseball_Bat_Denny_Epic",
+        "Items.Preset_Baseball_Bat_Denny_Legendary",
+        "Items.Preset_Baseball_Bat_Denny"
+      ],
+      "acquisition": "Po rozmowie w willi Denny podnieś kij, który wyrzuciła.",
+      "location": "Willa Denny",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Second Conflict",
+        "npc": "Denny",
+        "method": "loot",
+        "conditions": "Wymaga dotarcia do Second Conflict w wątku Kerry’ego.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Poradnik zdobycia — GOLD PLATED BASEBALL BAT",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1100/gold-plated-baseball-bat"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — GOLD PLATED BASEBALL BAT",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=3792",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "gris-gris",
+      "name": "GRIS-GRIS",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Quasar_Baron"
+      ],
+      "acquisition": "Zabierz klucz do magazynku podczas Treating Symptoms, z biurka przy komputerze. Otwórz nim zamknięty magazyn w kryjówce Slidera i podnieś rewolwer.",
+      "location": "Dogtown; kryjówka Slidera, zamknięty magazyn",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "Treating Symptoms; The Damned",
+        "npc": "Slider",
+        "method": "loot",
+        "conditions": "Klucz pochodzi z osobnego zlecenia Treating Symptoms; samo dotarcie do Slidera nie wystarcza do otwarcia magazynu.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — GRIS-GRIS",
+            "url": "https://cyberpunk.gameslantern.com/weapons/gris-gris"
+          },
+          {
+            "label": "EIP — Gris-Gris, miejsce klucza",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-guns-2-0-phantom-liberty-dlc/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "guillotine-x-mod2",
+      "name": "GUILLOTINE X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SMG",
+      "tweakdb_ids": [
+        "Items.Preset_Guillotine_Collectible"
+      ],
+      "acquisition": "Z punktu Kress Street przejdź na południe i wejdź schodami między zabudowania na górę. Pistolet maszynowy leży na stole w zamkniętej chacie: otwórz drzwi po teście Budowy ciała lub spróbuj sięgnąć przez zakratowane okno po wybiciu szkła.",
+      "location": "Dogtown; chata na górze schodów na południe od Kress Street",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-23",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "EIP podaje próg Budowy ciała 20 dla drzwi oraz alternatywę przez okno i beczki; nie strzelaj w leżącą na stole broń. ManualSave-679 potwierdza posiadanie, ale gracz nie przypisał jednoznacznie sposobu zdobycia do tego modelu.",
+        "fast_travel": "Kress Street",
+        "sources": [
+          {
+            "label": "Gamestegy — GUILLOTINE X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3146/guillotine-x-mod2"
+          },
+          {
+            "label": "EIP — Guillotine x-MOD2, drzwi i okno",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-x-mod2-weapons/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "gwynbleidd",
+      "name": "GWYNBLEIDD",
+      "game": "phantom_liberty",
+      "weapon_type": "BLADE - SWORD",
+      "tweakdb_ids": [
+        "Items.Preset_Sword_Witcher"
+      ],
+      "acquisition": "Po spełnieniu warunków nagrody związanej z Wiedźminem 3 sprawdź schowek w mieszkaniu V.",
+      "location": "Mieszkanie V; schowek",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "account",
+        "conditions": "Poradnik wskazuje posiadanie Wiedźmina 3 na Steam lub GOG i połączenie kont. Companion nie sprawdza uprawnień konta.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Poradnik zdobycia — GWYNBLEIDD",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3118/gwynbleidd"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "headhunter",
+      "name": "HEADHUNTER",
+      "game": "base",
+      "weapon_type": "BLADE - KNIFE",
+      "tweakdb_ids": [
+        "Items.Preset_Punk_Knife_Iconic_Epic",
+        "Items.Preset_Punk_Knife_Iconic_Legendary",
+        "Items.Preset_Punk_Knife_Iconic"
+      ],
+      "acquisition": "Kup u handlarza bronią białą w West Wind Estate. W razie braku oferty sprawdź ponownie po dobie.",
+      "location": "Pacifica; West Wind Estate",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "Handlarz bronią białą",
+        "method": "purchase",
+        "conditions": "",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — HEADHUNTER",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1237/headhunter"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "hercules-3ax",
+      "name": "HERCULES 3AX",
+      "game": "phantom_liberty",
+      "weapon_type": "SMART ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Hercules_Prototype"
+      ],
+      "acquisition": "Przeszukaj skrytkę na strzelnicy podczas Roads to Redemption.",
+      "location": "Dogtown; Nighthawks Rehabilitation Center",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Roads to Redemption",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Wymaga dostępu do zlecenia.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — HERCULES 3AX",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3098/hercules-3ax"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "kappa-x-mod2",
+      "name": "KAPPA X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "SMART PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Kappa_Legendary"
+      ],
+      "acquisition": "Po Spy in the Jungle sprawdź skrytkę przy rzeźbie nóg z kulą. Broń jest w plecaku za blachą oznaczoną żółtym kołem.",
+      "location": "Dogtown; mały budynek na południowy zachód od Luxor High Wellness Spa, przy rzeźbie nóg z kulą",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-23",
+        "quest": "Spy in the Jungle",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Skrytka jest za blachą z żółtym kołem przy rzeźbie nóg i kuli; poradnik EIP podaje test Budowy ciała 10 i wskazówki otrzymane po oszczędzeniu szpiega w Spy in the Jungle. Relacja gracza potwierdza znalezienie broni za blachą, a ManualSave-679 jej posiadanie; eksport nie przesądza, czy ten wariant dialogowy był warunkiem koniecznym.",
+        "fast_travel": "Luxor High Wellness Spa",
+        "sources": [
+          {
+            "label": "EIP — Kappa X-MOD2, dojście i skrytka",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-x-mod2-weapons/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "kyubi-x-mod2",
+      "name": "KYUBI X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Kyubi_Legendary"
+      ],
+      "acquisition": "Zanurkuj i przeszukaj dno zbiornika wodnego w rejonie Golden Pacific.",
+      "location": "Dogtown; zbiornik wodny na południe od punktu Golden Pacific",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "",
+        "fast_travel": "Golden Pacific",
+        "sources": [
+          {
+            "label": "Gamestegy — KYUBI X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3078/kyubi-x-mod2"
+          },
+          {
+            "label": "EIP — Kyubi X-MOD2",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-guns-2-0-phantom-liberty-dlc/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "la-chingona-dorada",
+      "name": "LA CHINGONA DORADA",
+      "game": "base",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Nue_Jackie_Epic",
+        "Items.Preset_Nue_Jackie_Legendary",
+        "Items.Preset_Nue_Jackie"
+      ],
+      "acquisition": "Po Heroes wróć do ołtarza Jackiego i zabierz pistolety; para liczy się jako jeden model.",
+      "location": "Ołtarz Jackiego po Heroes",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Heroes",
+        "npc": "Jackie / Mama Welles",
+        "method": "quest",
+        "conditions": "W The Heist wyślij ciało do rodziny albo każ Delamainowi czekać na V.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — LA CHINGONA DORADA",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3156/la-chingona-dorada"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "laika",
+      "name": "LAIKA",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Burya_AirDrop"
+      ],
+      "acquisition": "Przeszukaj pierwszy zrzut w okolicy Los Osos w Dogtown.",
+      "location": "Dogtown; Los Osos, miejsce zrzutu zaopatrzenia",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Games Lantern wskazuje pierwszy zrzut w tej lokacji. Nie oznacza to, że każdy późniejszy losowy zrzut zawiera Laikę.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — LAIKA",
+            "url": "https://cyberpunk.gameslantern.com/weapons/laika"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "lizzie",
+      "name": "LIZZIE",
+      "game": "base",
+      "weapon_type": "TECH PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Omaha_Suzie_Epic",
+        "Items.Preset_Omaha_Suzie_Legendary",
+        "Items.Preset_Omaha_Suzie"
+      ],
+      "acquisition": "Zajrzyj do pomieszczenia obok warsztatu Judy podczas Automatic Love.",
+      "location": "Pomieszczenie obok warsztatu Judy",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Automatic Love",
+        "npc": "Judy",
+        "method": "exploration",
+        "conditions": "Akt 2.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — LIZZIE",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1050/lizzie"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "ma70-hb-x-mod2",
+      "name": "MA70 HB x-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER HMG",
+      "tweakdb_ids": [
+        "Items.Preset_MA70_Collectible"
+      ],
+      "acquisition": "Odszukaj rozbity śmigłowiec w Dogtown i obejdź wrak od tyłu. Usuń blokujące przejście ogrodzenie i zabierz karabin.",
+      "location": "Dogtown; wrak śmigłowca przy zakręcie drogi prowadzącej od Luxor High Wellness Spa",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Dojście według komentarza gracza Cayde Agnew (EIP): od Luxor High idź drogą w dół, mijając zlecenie Voodoo Boys; wrak jest po lewej przy zakręcie. Autor podaje test Budowy ciała 10 do usunięcia ogrodzenia; sprawdź próg w grze.",
+        "fast_travel": "Luxor High Wellness Spa",
+        "sources": [
+          {
+            "label": "EIP — MA70, opis dojścia w komentarzu gracza",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-x-mod2-weapons/"
+          },
+          {
+            "label": "Steam — potwierdzenie broni we wraku śmigłowca",
+            "url": "https://steamcommunity.com/app/1091500/discussions/0/599647812318185807/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "murphys-law",
+      "name": "MURPHY'S LAW",
+      "game": "phantom_liberty",
+      "weapon_type": "BLUNT - TWO-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Baton_Murphy"
+      ],
+      "acquisition": "W Firestarter pomóż Songbird uciec, pokonaj Alberta Murphy’ego i przeszukaj jego ciało.",
+      "location": "Dogtown; trasa ucieczki z Songbird podczas Firestarter",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "Firestarter",
+        "npc": "Albert Murphy",
+        "method": "loot",
+        "conditions": "Wymaga opowiedzenia się po stronie Songbird w Firestarter. Droga Reeda prowadzi do innego zestawu broni.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — MURPHY'S LAW",
+            "url": "https://cyberpunk.gameslantern.com/weapons/murphys-law"
+          },
+          {
+            "label": "EIP — Murphy’s Law",
+            "url": "https://eip.gg/cyberpunk-2077/guides/melee-weapons-2-0-phantom-liberty-dlc/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "ndi-osprey",
+      "name": "NDI OSPREY",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SNIPER RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Osprey_Prototype"
+      ],
+      "acquisition": "Na początku Birds with Broken Wings przeszukaj zbrojownię kryjówki i zabierz karabin.",
+      "location": "Dogtown; kryjówka pod barem The Moth należącym do Alex; zbrojownia",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "Birds with Broken Wings",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Szukaj po przyjęciu Hansena, gdy wrócisz do kryjówki na kolejną odprawę. Wcześniejsza wizyta może być za wcześnie. Relacja użytkownika (21.09.2026): karabin nadal leżał w kryjówce po misjach; wejście było dostępne od strony piwnicy, gdy wejście od góry nie działało. Dokładny etap fabuły i warunki tego późniejszego dostępu nie zostały ustalone.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "EIP — NDI Osprey, zbrojownia",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-guns-2-0-phantom-liberty-dlc/"
+          },
+          {
+            "label": "Relacja gracza — moment pojawienia się Ospreya",
+            "url": "https://www.reddit.com/r/cyberpunkgame/comments/1mvrxpa/cant_find_ndi_osprey/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "ofive",
+      "name": "O'FIVE",
+      "game": "base",
+      "weapon_type": "POWER SNIPER RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Grad_Buck_Legendary",
+        "Items.Preset_Grad_Buck"
+      ],
+      "acquisition": "Podczas walki w Arroyo sprowokuj Bucka do postawienia karabinu. Po ataku jego grupy zabierz broń.",
+      "location": "Arroyo; arena walki z Buckiem",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Beat on the Brat: Arroyo",
+        "npc": "Buck Arnold",
+        "method": "quest",
+        "conditions": "Opisana droga wymaga odpowiednio wysokiego Body do zakładu; źródło nie podaje progu dla każdej wersji gry.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — O'FIVE",
+            "url": "https://cyberpunk.gameslantern.com/weapons/ofive"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — O'FIVE",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=3781",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "order",
+      "name": "ORDER",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH DB SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Satara_Brick"
+      ],
+      "acquisition": "Kup broń u czarnorynkowego handlarza Herolda Lowe’a.",
+      "location": "Dogtown; EBM Petrochem Stadium, stoisko Herolda Lowe’a",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "Herold Lowe",
+        "method": "purchase",
+        "conditions": "Wymaga Phantom Liberty.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — ORDER",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3108/order"
+          },
+          {
+            "label": "EIP — Order",
+            "url": "https://eip.gg/cyberpunk-2077/guides/iconic-guns-2-0-phantom-liberty-dlc/"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "pariah",
+      "name": "PARIAH",
+      "game": "phantom_liberty",
+      "weapon_type": "TECH PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Ticon_Reed"
+      ],
+      "acquisition": "Przeszukaj Reeda po zabiciu go w finale tej ścieżki.",
+      "location": "Finał The Killing Moon",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "The Killing Moon",
+        "npc": "Solomon Reed",
+        "method": "loot",
+        "conditions": "W Firestarter wybierz pomoc Songbird; w The Killing Moon zabij Reeda.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — PARIAH",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3105/pariah"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "pit-bull",
+      "name": "PIT BULL",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Ajax_Amazon"
+      ],
+      "acquisition": "Sprawdzaj zrzuty w Dogtown, rozpoznawalne po czerwonym dymie.",
+      "location": "Dogtown; zrzuty",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Brak jednego stałego punktu zdobycia.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — PIT BULL",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3081/pit-bull"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "pozhar-x-mod2",
+      "name": "POZHAR X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Pozhar_Legendary"
+      ],
+      "acquisition": "Odwiedź ukryty pokój przy Kress Street; według poradnika otwiera się o 01:00.",
+      "location": "Dogtown; Kress Street",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Sprawdź porę w grze.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — POZHAR X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3137/pozhar-x-mod2"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "psalm-116",
+      "name": "PSALM 11:6",
+      "game": "base",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Copperhead_Genesis_Epic",
+        "Items.Preset_Copperhead_Genesis_Legendary",
+        "Items.Preset_Copperhead_Genesis",
+        "Items.Legendary_Copperhead_Genesis"
+      ],
+      "acquisition": "Zdobądź schemat w aktywności przestępczości zorganizowanej NCPD i wytwórz broń.",
+      "location": "Watson; Northside",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Suspected Organized Crime Activity",
+        "npc": "",
+        "method": "crafting",
+        "conditions": "Sam schemat nie jest liczony jako posiadana broń.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — PSALM 11:6",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1082/psalm-116"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "rook",
+      "name": "ROOK",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER PISTOL",
+      "tweakdb_ids": [
+        "Items.Preset_Lexington_Rook"
+      ],
+      "acquisition": "Otwórz skrytkę kodem 941229 i zabierz pistolet.",
+      "location": "Dogtown; dolny pierścień The Needle, skrytka przed Aesculapius Inc.",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "Voodoo Treasure",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Skrytka związana z zadaniem Voodoo Treasure. Nie jest to broń wypadająca z przeciwnika; szukaj zamkniętego pojemnika przed Aesculapius Inc.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — ROOK",
+            "url": "https://cyberpunk.gameslantern.com/weapons/rook"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "sasquatchs-hammer",
+      "name": "SASQUATCH'S HAMMER",
+      "game": "base",
+      "weapon_type": "BLUNT - HAMMER",
+      "tweakdb_ids": [
+        "Items.Preset_Hammer_Sasquatch",
+        "Items.w_melee_boss_hammer"
+      ],
+      "acquisition": "Podczas I Walk the Line zabierz młot z miejsca walki z Sasquatch.",
+      "location": "Pacifica; miejsce starcia z Sasquatch podczas I Walk the Line",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "I Walk the Line",
+        "npc": "Matilda K. Rose (Sasquatch)",
+        "method": "loot",
+        "conditions": "Zabierz broń podczas wizyty w lokacji zadania; opis nie potwierdza późniejszego powrotu ani zakupu.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Fextralife — Sasquatch’s Hammer",
+            "url": "https://cyberpunk2077.wiki.fextralife.com/Sasquatch%27s+Hammer"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "sir-john-phallustiff",
+      "name": "SIR JOHN PHALLUSTIFF",
+      "game": "base",
+      "weapon_type": "BLUNT - ONE-HANDED CLUB",
+      "tweakdb_ids": [
+        "Items.Preset_Dildo_Stout_Epic",
+        "Items.Preset_Dildo_Stout_Legendary",
+        "Items.Preset_Dildo_Stout"
+      ],
+      "acquisition": "Po spotkaniu z Meredith zabierz broń pozostawioną na łóżku.",
+      "location": "Pokój spotkania z Meredith w Venus in Furs",
+      "collection_tags": [
+        "story_choice"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Venus in Furs",
+        "npc": "Meredith Stout",
+        "method": "loot",
+        "conditions": "Wymaga odblokowanego spotkania z Meredith. Companion nie sprawdza wcześniejszych wyborów.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — SIR JOHN PHALLUSTIFF",
+            "url": "https://cyberpunk.gameslantern.com/weapons/sir-john-phallustiff"
+          }
+        ],
+        "map_links": [
+          {
+            "label": "Mapa — SIR JOHN PHALLUSTIFF",
+            "url": "https://gamestegy.com/cyberpunk-2077/maps/night-city?marker-id=3796",
+            "kind": "marker",
+            "source_url": "https://gamestegy.com/cyberpunk-2077/maps/night-city"
+          }
+        ],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "sovereign",
+      "name": "SOVEREIGN",
+      "game": "base",
+      "weapon_type": "POWER DB SHOTGUN",
+      "tweakdb_ids": [
+        "Items.Preset_Igla_Sovereign_Legendary",
+        "Items.Preset_Igla_Sovereign"
+      ],
+      "acquisition": "Zabierz schemat od bossa aktywności przestępczości zorganizowanej, następnie wytwórz broń.",
+      "location": "Westbrook; Japantown",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "Suspected Organized Crime Activity",
+        "npc": "",
+        "method": "crafting",
+        "conditions": "Sam schemat nie potwierdza posiadania broni.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — SOVEREIGN",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/1079/sovereign"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "taigan",
+      "name": "TAIGAN",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER REVOLVER",
+      "tweakdb_ids": [
+        "Items.Preset_Metel_AirDrop"
+      ],
+      "acquisition": "Przeszukaj fabularny zrzut na szczycie północno-wschodniej wieży Montezuma’s Throne.",
+      "location": "Dogtown; Montezuma’s Throne, północno-wschodnia wieża, dach",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-21",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Źródło wskazuje konkretny fabularny zrzut; samo sprawdzanie dowolnych skrzyń w mieście nie gwarantuje zdobycia broni.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Games Lantern — TAIGAN",
+            "url": "https://cyberpunk.gameslantern.com/weapons/taigan"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "umbra-x-mod2",
+      "name": "UMBRA X-MOD2",
+      "game": "phantom_liberty",
+      "weapon_type": "POWER ASSAULT RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Umbra_Collectible"
+      ],
+      "acquisition": "Na szczycie budynku przejdź przez otwór z przewodami; idź wzdłuż nich do końca korytarza.",
+      "location": "Dogtown; Terra Cognita",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "exploration",
+        "conditions": "Według źródła dostęp po pierwszym zrzucie.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — UMBRA X-MOD2",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3080/umbra-x-mod2"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "volkodav",
+      "name": "VOLKODAV",
+      "game": "phantom_liberty",
+      "weapon_type": "BLADE - MACHETE",
+      "tweakdb_ids": [
+        "Items.Preset_Machete_Borg_AirDrop"
+      ],
+      "acquisition": "Podczas Waiting for Dodger sprawdź skrzynię na kontenerze w komisariacie. Jeżeli pominąłeś broń, sprawdź również ofertę Herolda Lowe’a na stadionie EBM Petrochem w Dogtown.",
+      "location": "Dogtown; komisariat z Waiting for Dodger lub czarny rynek na stadionie EBM Petrochem",
+      "collection_tags": [],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-23",
+        "quest": "Waiting for Dodger",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Games Lantern podaje Herolda jako alternatywę dla pominięcia broni. Relacja gracza mówi o zakupie jednej z nowych broni u handlarza, ale nie identyfikuje jej jednoznacznie; ManualSave-679 potwierdza posiadanie Volkodava. Oferta sprzedawcy zależy od przebiegu gry.",
+        "fast_travel": "EBM Petrochem Stadium (handlarz); powrót na komisariat sprawdź w grze",
+        "sources": [
+          {
+            "label": "EIP — Volkodav, sala z puszką",
+            "url": "https://eip.gg/cyberpunk-2077/guides/melee-weapons-2-0-phantom-liberty-dlc/"
+          },
+          {
+            "label": "Games Lantern — Volkodav, komisariat i Herold Lowe",
+            "url": "https://cyberpunk.gameslantern.com/weapons/volkodav"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    },
+    {
+      "id": "yasha",
+      "name": "YASHA",
+      "game": "phantom_liberty",
+      "weapon_type": "SMART SNIPER RIFLE",
+      "tweakdb_ids": [
+        "Items.Preset_Ashura_Twitch"
+      ],
+      "acquisition": "Według poradnika broń można znaleźć w zrzutach w Dogtown; szukaj czerwonego dymu.",
+      "location": "Dogtown; zrzuty",
+      "collection_tags": [
+        "special_reward"
+      ],
+      "identifier_sources": [
+        {
+          "label": "NightCity Console — katalog identyfikatorów (nie poradnik zdobycia)",
+          "url": "https://github.com/ysrdevs/nightcity-console-mac/blob/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv"
+        }
+      ],
+      "guide": {
+        "verification": "source_checked",
+        "checked_on": "2026-09-19",
+        "quest": "",
+        "npc": "",
+        "method": "loot",
+        "conditions": "Aktualnej dostępności historycznej promocji Twitch nie wyliczamy.",
+        "fast_travel": null,
+        "sources": [
+          {
+            "label": "Gamestegy — YASHA",
+            "url": "https://gamestegy.com/cyberpunk-2077/wiki/3099/yasha"
+          }
+        ],
+        "map_links": [],
+        "availability": "not_evaluated"
+      }
+    }
+  ],
+  "coverage": "112 named weapon models; expanded reference list, not a guarantee of completeness across patches",
+  "scope": "expanded-base-and-phantom-liberty-112",
+  "coverage_note": "112 named weapon models including special rewards and X-MOD2. Grenades, cyberware, quickhacks, recipes and quality tiers are not separate models. Completeness across future patches is not guaranteed."
+}
