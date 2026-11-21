@@ -1,0 +1,15 @@
+# Źródła zewnętrzne / Third-party references
+
+[Polski: instrukcja](README.md) · [English: manual](README.en.md) · [Źródła poradników / Guide sources](GUIDE_SOURCES.md)
+
+| Źródło / Source | Wykorzystanie | Use |
+|---|---|---|
+| [NightCity Console](https://github.com/ysrdevs/nightcity-console-mac/tree/f256a327d533f5058465c7f64e6f4773d0330535) · [TSV](https://raw.githubusercontent.com/ysrdevs/nightcity-console-mac/f256a327d533f5058465c7f64e6f4773d0330535/runtime/cet_catalog.tsv) | Jedyny opcjonalny zasób pobierany przez aplikację. Ten plik danych (projekt macierzysty: MIT) służy do rozpoznawania nazw i kategorii po ID. Nie jest dołączony do paczki. Repozytorium i jego skrypty nie są instalowane. Rozmiar, SHA-256, zakres danych i komenda pobrania są w instrukcji. | The application's only optional download. This data file (upstream project: MIT) resolves item names and categories from IDs. It is not bundled. Neither the upstream repository nor its scripts are installed. The manual gives the size, SHA-256, data fields and download command. |
+| [CP2077 Save Kit](https://github.com/ysrdevs/cyberpunk-savekit-mac) | Punkt odniesienia dla struktury `PlayerDevelopmentData` w `ScriptableSystemsContainer` (projekt macierzysty: MIT). | Reference for the layout of `PlayerDevelopmentData` in `ScriptableSystemsContainer` (upstream: MIT). |
+| [CyberCAT-SimpleGUI](https://github.com/Deweh/CyberCAT-SimpleGUI) i publiczne opracowania formatu / public save-format research | Weryfikacja struktur wyposażenia, statystyk i zapisanych pul gracza. Nie skopiowano kodu CyberCAT. Zapisany modyfikator nie jest prezentowany jako końcowy wynik Max Health. | References for equipment, player stats and saved pools. No CyberCAT code is copied. A saved modifier is not reported as the final Max Health value. |
+| [Cyberpunk 2077 Modding Docs](https://wiki.redmodding.org/cyberpunk-2077-modding/) | Struktura danych gry, TweakDB i identyfikatory rekordów. | Background on game data structures, TweakDB and record identifiers. |
+| Cyberpunk Wiki i inne źródła kart / other card sources | Wbudowane zestawienia ikon, perków, quickhacków i wyborów opierają się na wymienionych materiałach oraz danych z zapisu. Źródło nazwy nie jest dowodem posiadania przedmiotu. | Bundled guides and labels for iconic items, perks, quickhacks and choices refer to the cited sources and save data. A label reference does not establish ownership. |
+
+**PL:** Companion zawiera własny parser tylko do odczytu i lokalne tłumaczenia. Paczka nie zawiera zapisów użytkownika, zrzutów ekranu, archiwów gry, pliku `tweakdb.bin`, zasobów językowych gry ani kopii stron źródłowych. Teksty poradników są krótkimi opracowaniami; autorzy i źródła pozostają wskazani przy rekordach. Tytuł gry i nazwy przedmiotów należą do ich właścicieli.
+
+**EN:** Companion includes its own read-only parser and local translations. The archive contains no user saves, screenshots, game archives, `tweakdb.bin`, game localization assets or cached source pages. Guide texts are short summaries with attribution in the records. The game title and item names belong to their respective owners.

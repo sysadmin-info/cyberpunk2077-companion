@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+exports/
+test-export/
+.vscode/
+.idea/
+
+data/cet_catalog.tsv
+data/*.download
+
+# Local user progress for Hidden Encounters (not part of the release dataset)
+data/hidden_encounters_status.json
+
+# Local user checklists and transient exports
+data/hidden_encounters.sqlite3*
+data/.catalog-*
