@@ -1,4 +1,4 @@
-# CP2077 Companion 0.8.3
+# CP2077 Companion 0.8.4
 
 **Patch 2.5 — przewodnik gracza** — Ukończ „Skok na głęboką wodę” i dwa zlecenia Wakako. Poczekaj na jej wiadomość. W nowym zadaniu możesz zdobyć pięć elementów zestawu Kinga. W drzewku Opanowanie szukaj atutu Podwójne Kłopoty. Dotyczy pistoletów i rewolwerów typu Power. Wycieczka z Richardem Nightem wymaga ukończenia „Skoku na głęboką wodę” i reputacji 15. Osobne zadanie rozpoczniesz, skanując dowolną z 12 nowych kart Arkanów Małych. To poradnik offline. Nie sprawdza w zapisie, które z tych warunków już spełniasz.
 
@@ -91,7 +91,7 @@ py -3 .\cp2077_companion.py --once --export-dir .\exports
 
 Program zapisze razem `state.json`, `assistant-context.json` i `assistant-context.md` do nowego podkatalogu z czasem UTC i unikatowym sufiksem. Poprzednie eksporty pozostaną nienaruszone. Katalog docelowy musi leżeć poza katalogiem zapisów gry. Odczyt niepełnego lub uszkodzonego wybranego zapisu nie publikuje nowego zestawu.
 
-1. Zatrzymaj poprzednią wersję i rozpakuj 0.8.3 do nowego katalogu. Nie kopiuj całego starego katalogu `data` na nowy.
+1. Zatrzymaj poprzednią wersję i rozpakuj 0.8.4 do nowego katalogu. Nie kopiuj całego starego katalogu `data` na nowy.
 2. Jeśli zachowujesz oznaczenia z 0.7.1, skopiuj jedynie `data/hidden_encounters_status.json` do `data` w nowej wersji. W panelu wybierz zapis właściwej postaci. W karcie **Ukryte interakcje** użyj przycisku importu. Stary format nie rozróżnia postaci; sam decydujesz, której go przypisać. Ponowny import nie nadpisuje istniejących oznaczeń ani starego pliku.
 3. Możesz skopiować stary `cet_catalog.tsv` zamiast pobierać katalog ponownie. Program użyje go tylko po potwierdzeniu sumy. Przy następnym przenoszeniu tej wersji zachowaj `data/hidden_encounters.sqlite3` po zatrzymaniu procesu.
 
