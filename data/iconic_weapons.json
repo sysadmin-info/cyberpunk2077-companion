@@ -3219,6 +3219,7 @@
       "game": "base",
       "weapon_type": "SMART ASSAULT RIFLE",
       "tweakdb_ids": [
+        "Items.mq008_golden_knuckledusters",
         "Items.Preset_Sidewinder_Divided_Epic",
         "Items.Preset_Sidewinder_Divided_Legendary",
         "Items.Preset_Sidewinder_Divided"
